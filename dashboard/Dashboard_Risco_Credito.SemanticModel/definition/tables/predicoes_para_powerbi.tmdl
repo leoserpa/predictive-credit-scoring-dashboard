@@ -1,0 +1,385 @@
+table predicoes_para_powerbi
+	lineageTag: 1571220c-40bd-45cf-a600-56d50dc59fb0
+
+	column Idade
+		dataType: int64
+		formatString: 0
+		lineageTag: 1fc62719-3f12-4982-9251-7de6537caae2
+		summarizeBy: sum
+		sourceColumn: Idade
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Renda Anual'
+		dataType: int64
+		formatString: 0
+		lineageTag: 66503280-2b14-4075-b631-ec3a81b7b513
+		summarizeBy: sum
+		sourceColumn: Renda Anual
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation __PBI_SemanticLinks = [{"LinkTarget":{"TableName":"predicoes_para_powerbi","TableItemName":"Renda Anual (compartimentos)","ObjectType":4},"LinkType":"UsedInGroup"}]
+
+	column 'Tempo de Emprego (Anos)'
+		dataType: int64
+		formatString: 0
+		lineageTag: e41a5fd1-9865-4039-8c06-e7ece7ce8ff8
+		summarizeBy: sum
+		sourceColumn: Tempo de Emprego (Anos)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Valor do Empréstimo'
+		dataType: int64
+		formatString: 0
+		lineageTag: 0ce915f7-1262-4dfd-bdbd-ec44aff84be1
+		summarizeBy: sum
+		sourceColumn: Valor do Empréstimo
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation __PBI_SemanticLinks = [{"LinkTarget":{"TableName":"predicoes_para_powerbi","TableItemName":"Valor do Empréstimo (compartimentos)","ObjectType":4},"LinkType":"UsedInGroup"}]
+
+	column 'Taxa de Juros (%)'
+		dataType: double
+		lineageTag: 4cb5a7c2-7dc3-45a1-835e-928b5da9bc07
+		summarizeBy: sum
+		sourceColumn: Taxa de Juros (%)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column '% da Renda Comprometida'
+		dataType: double
+		lineageTag: a8b6212d-af98-46b5-a2bf-f1b8d2661887
+		summarizeBy: sum
+		sourceColumn: % da Renda Comprometida
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Anos de Histórico de Crédito'
+		dataType: int64
+		formatString: 0
+		lineageTag: dfc3875f-78f9-4b0f-91c3-f488d9eb4bf0
+		summarizeBy: sum
+		sourceColumn: Anos de Histórico de Crédito
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Relação Dívida/Renda'
+		dataType: double
+		lineageTag: 4e7dea49-c354-4179-9118-eab17b84ef46
+		summarizeBy: sum
+		sourceColumn: Relação Dívida/Renda
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Indicador Juros Altos'
+		dataType: int64
+		formatString: 0
+		lineageTag: f045f621-a3c5-4a8e-94cd-9bd833791f85
+		summarizeBy: sum
+		sourceColumn: Indicador Juros Altos
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Score da Operação (Num)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 4a32ed8a-ef31-4238-a734-a4904ad29cee
+		summarizeBy: sum
+		sourceColumn: Score da Operação (Num)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Histórico de Inadimplência (Bureau)'
+		dataType: int64
+		formatString: 0
+		lineageTag: fa67d629-ccfe-44f3-93c7-ad5486544646
+		summarizeBy: sum
+		sourceColumn: Histórico de Inadimplência (Bureau)
+
+		annotation SummarizationSetBy = Automatic
+
+	column Moradia_Financiada
+		dataType: int64
+		formatString: 0
+		lineageTag: 24a5494f-0de3-4b88-a338-1c74355db32d
+		summarizeBy: sum
+		sourceColumn: Moradia_Financiada
+
+		annotation SummarizationSetBy = Automatic
+
+	column Moradia_Outros
+		dataType: int64
+		formatString: 0
+		lineageTag: 255f5e76-47be-45be-8a48-61ad96d56f3b
+		summarizeBy: sum
+		sourceColumn: Moradia_Outros
+
+		annotation SummarizationSetBy = Automatic
+
+	column Moradia_Propria
+		dataType: int64
+		formatString: 0
+		lineageTag: b6492a53-f67a-4fea-a5b3-af2168aa78a4
+		summarizeBy: sum
+		sourceColumn: Moradia_Propria
+
+		annotation SummarizationSetBy = Automatic
+
+	column Moradia_Aluguel
+		dataType: int64
+		formatString: 0
+		lineageTag: cdbbdbd7-68b7-410a-8a62-88289a35a8f7
+		summarizeBy: sum
+		sourceColumn: Moradia_Aluguel
+
+		annotation SummarizationSetBy = Automatic
+
+	column Motivo_Consolidacao_Divida
+		dataType: int64
+		formatString: 0
+		lineageTag: f0f6320c-c215-4394-95ce-98bec7089908
+		summarizeBy: sum
+		sourceColumn: Motivo_Consolidacao_Divida
+
+		annotation SummarizationSetBy = Automatic
+
+	column Motivo_Educacao
+		dataType: int64
+		formatString: 0
+		lineageTag: 29c99d10-7d14-4b12-9706-7a03e9f571e8
+		summarizeBy: sum
+		sourceColumn: Motivo_Educacao
+
+		annotation SummarizationSetBy = Automatic
+
+	column Motivo_Reforma
+		dataType: int64
+		formatString: 0
+		lineageTag: e7fc09ed-1f28-43b3-b168-b2f2cea890d5
+		summarizeBy: sum
+		sourceColumn: Motivo_Reforma
+
+		annotation SummarizationSetBy = Automatic
+
+	column Motivo_Saude
+		dataType: int64
+		formatString: 0
+		lineageTag: 7e98ecf8-d28d-4c63-bd2d-77fbd907bd84
+		summarizeBy: sum
+		sourceColumn: Motivo_Saude
+
+		annotation SummarizationSetBy = Automatic
+
+	column Motivo_Pessoal
+		dataType: int64
+		formatString: 0
+		lineageTag: f9ce2ddc-e67e-49e2-ac51-d8d06d6c6b49
+		summarizeBy: sum
+		sourceColumn: Motivo_Pessoal
+
+		annotation SummarizationSetBy = Automatic
+
+	column Motivo_Empreendedorismo
+		dataType: int64
+		formatString: 0
+		lineageTag: 7606fe65-47bf-4fa8-a971-01dde764e70b
+		summarizeBy: sum
+		sourceColumn: Motivo_Empreendedorismo
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Inadimplência Real (Target)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 53d2265e-5386-4c18-81e0-ff19b2d775c2
+		summarizeBy: sum
+		sourceColumn: Inadimplência Real (Target)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Inadimplência Prevista (Modelo)'
+		dataType: int64
+		formatString: 0
+		lineageTag: ae8d9760-c99d-4aab-9fdb-f14ce16e072a
+		summarizeBy: sum
+		sourceColumn: Inadimplência Prevista (Modelo)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Probabilidade de Calote'
+		dataType: double
+		lineageTag: baf9bc03-6e48-4715-b8be-a54670e245fd
+		summarizeBy: sum
+		sourceColumn: Probabilidade de Calote
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Categoria de Risco'
+		dataType: string
+		lineageTag: 687d70a4-6e3f-4b71-b78f-d7d8ab169f89
+		summarizeBy: none
+		sourceColumn: Categoria de Risco
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Motivo do Empréstimo'
+		dataType: string
+		lineageTag: f9e0ee64-2722-4e7a-bd2e-4022f2cfaa2b
+		summarizeBy: none
+		sourceColumn: Motivo do Empréstimo
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Tipo de Moradia'
+		dataType: string
+		lineageTag: e4e4cedf-15a2-4a10-bdf4-304340b96972
+		summarizeBy: none
+		sourceColumn: Tipo de Moradia
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Renda Anual (compartimentos)' =
+			IF(
+				ISBLANK('predicoes_para_powerbi'[Renda Anual]),
+				BLANK(),
+				INT('predicoes_para_powerbi'[Renda Anual] / 20000) * 20000
+			)
+		formatString: 0
+		lineageTag: 11fec65b-967c-4101-85ab-6239a2449149
+		summarizeBy: none
+
+		extendedProperty GroupingMetadata =
+				{
+				  "version": 0,
+				  "groupedColumns": [
+				    {
+				      "Column": {
+				        "Expression": {
+				          "SourceRef": {
+				            "Entity": "predicoes_para_powerbi"
+				          }
+				        },
+				        "Property": "Renda Anual"
+				      }
+				    }
+				  ],
+				  "binningMetadata": {
+				    "binSize": {
+				      "value": 20000.0,
+				      "unit": 0
+				    }
+				  }
+				}
+
+		annotation GroupingDesignState = {"Version":0,"Sources":[{"Name":"p","Entity":"predicoes_para_powerbi"}],"GroupedColumns":[{"Column":{"Expression":{"SourceRef":{"Source":"p"}},"Property":"Renda Anual"}}],"BinItem":{"Expression":{"Floor":{"Expression":{"Column":{"Expression":{"SourceRef":{"Source":"p"}},"Property":"Renda Anual"}},"Size":20000.0}}}}
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Valor do Empréstimo (compartimentos)' =
+			IF(
+				ISBLANK('predicoes_para_powerbi'[Valor do Empréstimo]),
+				BLANK(),
+				INT('predicoes_para_powerbi'[Valor do Empréstimo] / 5000) * 5000
+			)
+		formatString: 0
+		lineageTag: 4b94d59d-4e2e-482f-a441-0494df8a2d89
+		summarizeBy: none
+
+		extendedProperty GroupingMetadata =
+				{
+				  "version": 0,
+				  "groupedColumns": [
+				    {
+				      "Column": {
+				        "Expression": {
+				          "SourceRef": {
+				            "Entity": "predicoes_para_powerbi"
+				          }
+				        },
+				        "Property": "Valor do Empréstimo"
+				      }
+				    }
+				  ],
+				  "binningMetadata": {
+				    "binSize": {
+				      "value": 5000.0,
+				      "unit": 0
+				    }
+				  }
+				}
+
+		annotation GroupingDesignState = {"Version":0,"Sources":[{"Name":"p","Entity":"predicoes_para_powerbi"}],"GroupedColumns":[{"Column":{"Expression":{"SourceRef":{"Source":"p"}},"Property":"Valor do Empréstimo"}}],"BinItem":{"Expression":{"Floor":{"Expression":{"Column":{"Expression":{"SourceRef":{"Source":"p"}},"Property":"Valor do Empréstimo"}},"Size":5000.0}}}}
+
+		annotation SummarizationSetBy = Automatic
+
+	partition predicoes_para_powerbi = m
+		mode: import
+		source = ```
+				let
+				    Fonte = Csv.Document(File.Contents("C:\projetinhos para portfolios de dados leo\projeto_risco\data\processed\predicoes_para_powerbi.csv"),[Delimiter=";", Columns=27, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"person_age", Int64.Type}, {"person_income", Int64.Type}, {"person_emp_length", Int64.Type}, {"loan_amnt", Int64.Type}, {"loan_int_rate", type number}, {"loan_percent_income", type number}, {"cb_person_cred_hist_length", Int64.Type}, {"dti_ratio", type number}, {"taxa_juros_alta", Int64.Type}, {"loan_grade_num", Int64.Type}, {"cb_default_flag", Int64.Type}, {"home_MORTGAGE", Int64.Type}, {"home_OTHER", Int64.Type}, {"home_OWN", Int64.Type}, {"home_RENT", Int64.Type}, {"intent_DEBTCONSOLIDATION", Int64.Type}, {"intent_EDUCATION", Int64.Type}, {"intent_HOMEIMPROVEMENT", Int64.Type}, {"intent_MEDICAL", Int64.Type}, {"intent_PERSONAL", Int64.Type}, {"intent_VENTURE", Int64.Type}, {"loan_status_real", Int64.Type}, {"loan_status_pred", Int64.Type}, {"probabilidade_default", type number}, {"risco_categoria", type text}, {"loan_intent", type text}, {"person_home_ownership", type text}}),
+				    
+				    // --- TRADUÇÃO COMPLETA DE TODAS AS COLUNAS ---
+				    #"Colunas Traduzidas" = Table.RenameColumns(#"Tipo Alterado",{
+				        {"person_age", "Idade"}, 
+				        {"person_income", "Renda Anual"}, 
+				        {"person_emp_length", "Tempo de Emprego (Anos)"}, 
+				        {"loan_amnt", "Valor do Empréstimo"}, 
+				        {"loan_int_rate", "Taxa de Juros (%)"}, 
+				        {"loan_percent_income", "% da Renda Comprometida"},
+				        {"cb_person_cred_hist_length", "Anos de Histórico de Crédito"},
+				        {"dti_ratio", "Relação Dívida/Renda"},
+				        {"taxa_juros_alta", "Indicador Juros Altos"},
+				        {"loan_grade_num", "Score da Operação (Num)"},
+				        {"cb_default_flag", "Histórico de Inadimplência (Bureau)"},
+				        {"home_MORTGAGE", "Moradia_Financiada"},
+				        {"home_OTHER", "Moradia_Outros"},
+				        {"home_OWN", "Moradia_Propria"},
+				        {"home_RENT", "Moradia_Aluguel"},
+				        {"intent_DEBTCONSOLIDATION", "Motivo_Consolidacao_Divida"},
+				        {"intent_EDUCATION", "Motivo_Educacao"},
+				        {"intent_HOMEIMPROVEMENT", "Motivo_Reforma"},
+				        {"intent_MEDICAL", "Motivo_Saude"},
+				        {"intent_PERSONAL", "Motivo_Pessoal"},
+				        {"intent_VENTURE", "Motivo_Empreendedorismo"},
+				        {"loan_status_real", "Inadimplência Real (Target)"},
+				        {"loan_status_pred", "Inadimplência Prevista (Modelo)"},
+				        {"probabilidade_default", "Probabilidade de Calote"},
+				        {"risco_categoria", "Categoria de Risco"},
+				        {"loan_intent", "Motivo do Empréstimo"},
+				        {"person_home_ownership", "Tipo de Moradia"}
+				    }),
+				
+				    // --- TRADUÇÃO DOS VALORES INTERNOS ---
+				    #"Traduzir Motivos" = Table.ReplaceValue(#"Colunas Traduzidas", "EDUCATION", "Educação", Replacer.ReplaceText, {"Motivo do Empréstimo"}),
+				    #"Traduzir Motivos2" = Table.ReplaceValue(#"Traduzir Motivos", "MEDICAL", "Saúde", Replacer.ReplaceText, {"Motivo do Empréstimo"}),
+				    #"Traduzir Motivos3" = Table.ReplaceValue(#"Traduzir Motivos2", "VENTURE", "Empreendedorismo", Replacer.ReplaceText, {"Motivo do Empréstimo"}),
+				    #"Traduzir Motivos4" = Table.ReplaceValue(#"Traduzir Motivos3", "DEBTCONSOLIDATION", "Consolidação de Dívida", Replacer.ReplaceText, {"Motivo do Empréstimo"}),
+				    #"Traduzir Motivos5" = Table.ReplaceValue(#"Traduzir Motivos4", "HOMEIMPROVEMENT", "Reforma Residencial", Replacer.ReplaceText, {"Motivo do Empréstimo"}),
+				    #"Traduzir Motivos6" = Table.ReplaceValue(#"Traduzir Motivos5", "PERSONAL", "Pessoal", Replacer.ReplaceText, {"Motivo do Empréstimo"}),
+				
+				    #"Traduzir Moradia" = Table.ReplaceValue(#"Traduzir Motivos6", "RENT", "Aluguel", Replacer.ReplaceText, {"Tipo de Moradia"}),
+				    #"Traduzir Moradia2" = Table.ReplaceValue(#"Traduzir Moradia", "MORTGAGE", "Financiado", Replacer.ReplaceText, {"Tipo de Moradia"}),
+				    #"Traduzir Moradia3" = Table.ReplaceValue(#"Traduzir Moradia2", "OWN", "Própria", Replacer.ReplaceText, {"Tipo de Moradia"}),
+				    #"Traduzir Moradia4" = Table.ReplaceValue(#"Traduzir Moradia3", "OTHER", "Outros", Replacer.ReplaceText, {"Tipo de Moradia"})
+				
+				in
+				    #"Traduzir Moradia4"
+				```
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navegação
+

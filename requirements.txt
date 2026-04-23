@@ -1,0 +1,17 @@
+# =============================================================================
+# REQUIREMENTS - Projeto Fintech: Risco de Crédito
+# =============================================================================
+# Use as MESMAS versões no Google Colab para garantir compatibilidade:
+#   !pip install -r requirements.txt
+# =============================================================================
+pandas==3.0.2
+numpy==2.3.2
+matplotlib==3.10.6
+seaborn==0.13.2
+scikit-learn==1.7.2
+# Bibliotecas para modelagem (Fase 3 - Google Colab)
+imbalanced-learn>=0.11.0
+xgboost>=2.0.0
+lightgbm>=4.0.0
+shap>=0.43.0
+joblib>=1.3.0

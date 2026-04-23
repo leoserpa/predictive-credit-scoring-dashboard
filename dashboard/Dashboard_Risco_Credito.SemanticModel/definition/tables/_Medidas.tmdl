@@ -1,0 +1,156 @@
+table _Medidas
+	lineageTag: c1e1f952-4c08-4bc4-822f-9f09fc8682a1
+
+	measure 'Total de Clientes' = ```
+			COUNTROWS('predicoes_para_powerbi')
+			
+			```
+		formatString: 0
+		lineageTag: 126c4e75-374d-4b33-843a-ff52745988e9
+
+	measure 'Média de Risco' = ```
+			AVERAGE('predicoes_para_powerbi'[Probabilidade de Calote])
+			
+			```
+		lineageTag: 734707b2-27e0-49b5-9ae5-624a19ba5aa5
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Volume em Risco (R$)' = ```
+			
+			CALCULATE(
+			    SUM('predicoes_para_powerbi'[Valor do Empréstimo]), 
+			    'predicoes_para_powerbi'[Inadimplência Prevista (Modelo)] = 1
+			)
+			
+			```
+		formatString: 0
+		lineageTag: 86950f60-57e7-4ba6-8442-ba3fb5d89de0
+
+	measure '% Inadimplência Prevista' = ```
+			
+			DIVIDE(
+			    CALCULATE(COUNTROWS('predicoes_para_powerbi'), 'predicoes_para_powerbi'[Inadimplência Prevista (Modelo)] = 1),
+			    [Total de Clientes],
+			    0
+			)
+			
+			```
+		lineageTag: bc74db31-bf99-4014-9f51-e420dde8edef
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Volume Total (R$)' = ```
+			SUM('predicoes_para_powerbi'[Valor do Empréstimo])
+			
+			```
+		formatString: 0
+		lineageTag: 6b6f7dce-909d-4811-8761-71917bec7143
+
+	measure 'Cor Barra Destaque' = ```
+			
+			VAR MaiorValorNoFiltro = 
+			    MAXX(
+			        ALLSELECTED('predicoes_para_powerbi'[Motivo do Empréstimo]), -- Clique aqui e selecione sua tabela
+			        [Média de Risco]
+			    )
+			RETURN
+			    IF(
+			        [Média de Risco] = MaiorValorNoFiltro, 
+			        "#A278E1", 
+			        "#444444" 
+			    )
+			
+			
+			```
+		lineageTag: 129ab01e-5152-40ff-96d6-73a7a8939248
+
+	measure 'Cor Treemap Ranking' = ```
+			
+			VAR Posicao = 
+			    RANKX(
+			        ALLSELECTED('predicoes_para_powerbi'[Motivo do Empréstimo]), -- Focamos na categoria
+			        CALCULATE(SUM('predicoes_para_powerbi'[Valor do Empréstimo]))
+			    )
+			RETURN
+			    SWITCH( Posicao,
+			        1, "#A278E1", -- Roxo Destaque
+			        2, "#7456AD", -- Roxo Médio
+			        3, "#5E5E5E", -- Cinza
+			        4, "#4A4A4A", -- Cinza
+			        5, "#363636", -- Grafite
+			        "#222222"     -- Fundo
+			    )
+			
+			
+			```
+		lineageTag: 89f19884-e708-4977-a841-bfe1a481bc84
+
+	measure 'Menu Superior HTML' = ```
+			
+			"
+			<style>
+			    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+			    
+			    .menu-container {
+			        display: flex;
+			        flex-direction: row;
+			        gap: 35px;
+			        padding: 0 15px;
+			        font-family: 'Inter', sans-serif;
+			        align-items: center;
+			        height: 60px;
+			    }
+			
+			    .nav-item {
+			        color: #888888;        /* Cinza padrão para todos */
+			        padding: 8px 0;
+			        border-bottom: 3px solid transparent;
+			        font-weight: 500;
+			        font-size: 14px;
+			        cursor: pointer;
+			        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+			        text-decoration: none;
+			    }
+			
+			    /* Efeito de destaque: Só ativa quando passa o mouse (ou toca) */
+			    .nav-item:hover {
+			        color: #A278E1;        /* Muda para roxo */
+			        border-bottom: 3px solid #A278E1; /* Aparece a linha roxa */
+			        transform: translateY(-1px);      /* Leve subida para feedback tátil */
+			    }
+			</style>
+			
+			<div class='menu-container'>
+			    <div class='nav-item'>Visão Geral</div>
+			    <div class='nav-item'>Análise Detalhada</div>
+			    <div class='nav-item'>Previsão de Risco</div>
+			</div>
+			"
+			
+			
+			```
+		lineageTag: 823477ce-d920-47b3-8cb4-fdb6e5ba6c67
+
+	measure Medida
+		lineageTag: 55c21920-72b6-4b6e-adb4-657c97e1656c
+
+	column 'Coluna 1'
+		dataType: string
+		lineageTag: 32af63e6-040f-4646-bc30-fe0632679dde
+		summarizeBy: none
+		sourceColumn: Coluna 1
+
+		annotation SummarizationSetBy = Automatic
+
+	partition _Medidas = m
+		mode: import
+		source =
+				let
+				    Fonte = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#"Coluna 1" = _t]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(Fonte,{{"Coluna 1", type text}})
+				in
+				    #"Tipo Alterado"
+
+	annotation PBI_ResultType = Table
+

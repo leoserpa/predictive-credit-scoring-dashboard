@@ -1,0 +1,19 @@
+============================================================
+LOG DE LIMPEZA - CREDIT RISK DATASET
+============================================================
+
+Dataset Original: 32,581 linhas x 12 colunas
+Dataset Limpo:    32,574 linhas x 22 colunas
+
+  1. Removidos 5 registros com idade > 100 anos
+  2. Removidos 2 registros com tempo de emprego > 60 anos
+  3. person_emp_length: 895 nulos preenchidos com mediana (4.0 anos)
+  4. loan_int_rate: 3115 nulos preenchidos com mediana por grau do empréstimo
+  5. Criada feature: dti_ratio (Debt-to-Income)
+  6. Criada feature: faixa_etaria (categorização)
+  7. Criada feature: taxa_juros_alta (1 se > 11.01%)
+  8. Criada feature: risco_comprometimento (Baixo/Moderado/Alto/Crítico)
+  9. loan_grade: Label Encoding ordinal (A=1 → G=7)
+  10. cb_person_default_on_file: Binary Encoding (Y=1, N=0)
+  11. person_home_ownership e loan_intent: One-Hot Encoding
+  12. Removidas colunas originais já transformadas: ['loan_grade', 'cb_person_default_on_file', 'faixa_etaria', 'risco_comprometimento']
