@@ -8,12 +8,14 @@ model Model
 
 annotation __PBI_TimeIntelligenceEnabled = 1
 
-annotation PBI_QueryOrder = ["predicoes_para_powerbi","_Medidas"]
+annotation PBI_QueryOrder = ["predicoes_para_powerbi","_Medidas","comparativo_modelos_para_powerbi","feature_importance_para_powerbi"]
 
 annotation PBI_ProTooling = ["DevMode"]
 
 ref table predicoes_para_powerbi
 ref table _Medidas
+ref table comparativo_modelos_para_powerbi
+ref table feature_importance_para_powerbi
 
 ref cultureInfo en-US
 

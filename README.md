@@ -1,5 +1,5 @@
 # 📊 Fintech Credit Risk Model - Machine Learning
-![Version](https://img.shields.io/badge/version-v1.0.0-A278E1?style=flat-square)
+![Version](https://img.shields.io/badge/version-v1.1.0-A278E1?style=flat-square)
 ![Status](https://img.shields.io/badge/status-em--desenvolvimento-orange?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power--BI-Premium--UI-F2C811?style=flat-square&logo=powerbi&logoColor=black)

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template Power BI - Espaço Maximo</title>
+    <title>Template Power BI - Análise Detalhada</title>
     <!-- Fonte limpa, estilo dashboard analítico -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -92,8 +92,8 @@
 <body>
 
     <div class="header-section">
-        <h1>Dashboard Tufte / Espaço Extremo</h1>
-        <p class="tagline">Gaps reduzidos ao limite (10px). A área dos gráficos aumentou drasticamente.</p>
+        <h1>Dashboard P2: Análise Detalhada</h1>
+        <p class="tagline">Layout focado em distribuição estatística e explicabilidade do modelo (SHAP).</p>
     </div>
 
     <div class="controls">
@@ -104,12 +104,12 @@
                 <polyline points="7 10 12 15 17 10"></polyline>
                 <line x1="12" y1="15" x2="12" y2="3"></line>
             </svg>
-            Exportar SVG (Espaço Máximo)
+            Exportar SVG (Página 2)
         </button>
     </div>
 
     <div class="preview-wrapper">
-        <svg id="pbi-template" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+        <svg id="pbi-template-p2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
             <!-- Efeito de Sombra para dar profundidade aos cartões -->
             <defs>
                 <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
@@ -132,24 +132,34 @@
                 Preditivo</text>
             <line x1="15" y1="70" x2="195" y2="70" stroke="#2a2a2a" stroke-width="1" />
 
-            <!-- Guias para os Segmentadores -->
-            <text x="15" y="120" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#666666"
-                text-transform="uppercase" letter-spacing="1">Categoria de Risco</text>
+            <!-- Ficha Técnica do Modelo (Substituindo os filtros vazios) -->
+            <text x="15" y="110" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#A278E1"
+                text-transform="uppercase" letter-spacing="1">Especificações do Modelo</text>
+            
+            <text x="15" y="145" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#666666"
+                text-transform="uppercase" letter-spacing="1">Algoritmo Campeão</text>
+            <text x="15" y="165" font-family="Inter, sans-serif" font-size="13" font-weight="500" fill="#e5e5e5">LightGBM Classifier</text>
 
-            <text x="15" y="220" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#666666"
-                text-transform="uppercase" letter-spacing="1">Tipo de Moradia</text>
+            <text x="15" y="215" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#666666"
+                text-transform="uppercase" letter-spacing="1">Variável Alvo (Target)</text>
+            <text x="15" y="235" font-family="Inter, sans-serif" font-size="13" font-weight="500" fill="#e5e5e5">Inadimplência Real</text>
 
-            <text x="15" y="320" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#666666"
-                text-transform="uppercase" letter-spacing="1">Motivo do Empréstimo</text>
+            <text x="15" y="285" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#666666"
+                text-transform="uppercase" letter-spacing="1">Amostra de Teste</text>
+            <text x="15" y="305" font-family="Inter, sans-serif" font-size="13" font-weight="500" fill="#e5e5e5">6.515 Clientes</text>
+            
+            <text x="15" y="355" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#666666"
+                text-transform="uppercase" letter-spacing="1">Performance (ROC-AUC)</text>
+            <text x="15" y="375" font-family="Inter, sans-serif" font-size="13" font-weight="500" fill="#e5e5e5">94.6%</text>
 
             <!-- Top Header Area (Altura: 60) -->
             <rect x="210" y="0" width="1070" height="60" fill="#121212" />
-            
+
             <!-- Título Estilizado -->
             <g filter="url(#shadow)">
                 <text x="230" y="38" font-family="Inter, sans-serif" font-size="22" font-weight="600">
-                    <tspan fill="#e5e5e5">Visão Geral de </tspan>
-                    <tspan fill="#A278E1">Risco</tspan>
+                    <tspan fill="#e5e5e5">Performance do </tspan>
+                    <tspan fill="#A278E1">Modelo</tspan>
                 </text>
                 <!-- Linha de detalhe abaixo do título -->
                 <rect x="230" y="48" width="40" height="3" rx="1.5" fill="#A278E1" />
@@ -157,94 +167,89 @@
 
             <!-- ==============================
                  KPIs (Cards) - Y: 70, H: 90
-                 Largura: 255
                  ============================== -->
 
-            <!-- Card 1: Total de Clientes -->
+            <!-- KPI 1: ROC AUC -->
             <rect x="220" y="70" width="255" height="90" rx="8" fill="#141414" stroke="#2a2a2a" stroke-width="1"
                 filter="url(#shadow)" />
-            <!-- Detalhe Roxo -->
             <rect x="220" y="70" width="3" height="90" rx="1.5" fill="#A278E1" />
             <path d="M 220 78 A 8 8 0 0 1 228 70 L 250 70 L 250 160 L 228 160 A 8 8 0 0 1 220 152 Z" fill="#A278E1"
                 opacity="0.04" />
             <text x="235" y="95" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#666666"
-                letter-spacing="0.5">TOTAL DE CLIENTES</text>
+                letter-spacing="0.5">ROC-AUC (DISTINÇÃO)</text>
             <g transform="translate(435, 80)" stroke="#444444" fill="none" stroke-width="2" stroke-linecap="round"
                 stroke-linejoin="round">
-                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                <circle cx="9" cy="7" r="4"></circle>
-                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M16 12l-4-4-4 4"></path>
+                <path d="M12 16V8"></path>
             </g>
 
-            <!-- Card 2: Média de Risco -->
+            <!-- KPI 2: Recall do Modelo -->
             <rect x="485" y="70" width="255" height="90" rx="8" fill="#141414" stroke="#2a2a2a" stroke-width="1"
                 filter="url(#shadow)" />
-            <!-- Detalhe Roxo -->
             <rect x="485" y="70" width="3" height="90" rx="1.5" fill="#A278E1" />
             <path d="M 485 78 A 8 8 0 0 1 493 70 L 515 70 L 515 160 L 493 160 A 8 8 0 0 1 485 152 Z" fill="#A278E1"
                 opacity="0.04" />
             <text x="500" y="95" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#666666"
-                letter-spacing="0.5">MÉDIA DE RISCO (%)</text>
+                letter-spacing="0.5">RECALL (TAXA DE DETECÇÃO)</text>
             <g transform="translate(700, 80)" stroke="#444444" fill="none" stroke-width="2" stroke-linecap="round"
                 stroke-linejoin="round">
-                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
             </g>
 
-            <!-- Card 3: Volume Total -->
+            <!-- KPI 3: Precisão Geral -->
             <rect x="750" y="70" width="255" height="90" rx="8" fill="#141414" stroke="#2a2a2a" stroke-width="1"
                 filter="url(#shadow)" />
-            <!-- Detalhe Roxo -->
             <rect x="750" y="70" width="3" height="90" rx="1.5" fill="#A278E1" />
             <path d="M 750 78 A 8 8 0 0 1 758 70 L 780 70 L 780 160 L 758 160 A 8 8 0 0 1 750 152 Z" fill="#A278E1"
                 opacity="0.04" />
             <text x="765" y="95" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#666666"
-                letter-spacing="0.5">VOLUME TOTAL ($)</text>
+                letter-spacing="0.5">PRECISÃO (CONFIANÇA)</text>
             <g transform="translate(965, 80)" stroke="#444444" fill="none" stroke-width="2" stroke-linecap="round"
                 stroke-linejoin="round">
-                <path d="M20 12V8H6a2 2 0 0 1-2-2c0-1.1.9-2 2-2h12v4"></path>
-                <path d="M4 6v12c0 1.1.9 2 2 2h14v-4"></path>
-                <path d="M18 12a2 2 0 0 0-2 2c0 1.1.9 2 2 2h4v-4h-4z"></path>
+                <circle cx="12" cy="12" r="10"></circle>
+                <circle cx="12" cy="12" r="6"></circle>
+                <circle cx="12" cy="12" r="2"></circle>
             </g>
 
-            <!-- Card 4: Volume em Risco -->
+            <!-- KPI 4: F1-Score -->
             <rect x="1015" y="70" width="255" height="90" rx="8" fill="#141414" stroke="#2a2a2a" stroke-width="1"
                 filter="url(#shadow)" />
-            <!-- Detalhe Roxo -->
             <rect x="1015" y="70" width="3" height="90" rx="1.5" fill="#A278E1" />
             <path d="M 1015 78 A 8 8 0 0 1 1023 70 L 1045 70 L 1045 160 L 1023 160 A 8 8 0 0 1 1015 152 Z"
                 fill="#A278E1" opacity="0.04" />
             <text x="1030" y="95" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#666666"
-                letter-spacing="0.5">VOLUME EM RISCO ($)</text>
+                letter-spacing="0.5">F1-SCORE (EQUILÍBRIO)</text>
             <g transform="translate(1230, 80)" stroke="#444444" fill="none" stroke-width="2" stroke-linecap="round"
                 stroke-linejoin="round">
-                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                <line x1="12" y1="8" x2="12" y2="12"></line>
-                <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
             </g>
 
             <!-- ==============================
-                 Área de Gráficos (Espaçamento reduzido para 10px)
+                 LAYOUT DE GRÁFICOS P2 (2 Gráficos Lado a Lado)
                  ============================== -->
 
-            <!-- Esquerda: Gráfico Vertical Alto - Y: 170, H: 540, W: 520 -->
+            <!-- 1. Distribuição de Probabilidade (Esquerda) -->
+            <!-- x: 220, y: 170, w: 520, h: 540 -->
             <rect x="220" y="170" width="520" height="540" rx="8" fill="#141414" stroke="#2a2a2a" stroke-width="1"
                 filter="url(#shadow)" />
 
-            <!-- Direita Topo: Y: 170, H: 265, W: 520 -->
+            <!-- 2. Importância de Variáveis - SHAP (Direita Topo) -->
+            <!-- x: 750, y: 170, w: 520, h: 265 -->
             <rect x="750" y="170" width="520" height="265" rx="8" fill="#141414" stroke="#2a2a2a" stroke-width="1"
                 filter="url(#shadow)" />
 
-            <!-- Direita Base: Y: 445, H: 265, W: 520 -->
+            <!-- 3. Comparativo de Modelos (Direita Base) -->
+            <!-- x: 750, y: 445, w: 520, h: 265 -->
             <rect x="750" y="445" width="520" height="265" rx="8" fill="#141414" stroke="#2a2a2a" stroke-width="1"
                 filter="url(#shadow)" />
-
         </svg>
     </div>
 
     <script>
         function downloadSVG() {
-            const svgElement = document.getElementById('pbi-template');
+            const svgElement = document.getElementById('pbi-template-p2');
             const serializer = new XMLSerializer();
             let svgString = serializer.serializeToString(svgElement);
 
@@ -256,7 +261,7 @@
             const url = URL.createObjectURL(blob);
             const link = document.createElement('a');
             link.href = url;
-            link.download = 'Template_Matte_EspacoMax.svg';
+            link.download = 'Template_Matte_Analise_P2.svg';
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);

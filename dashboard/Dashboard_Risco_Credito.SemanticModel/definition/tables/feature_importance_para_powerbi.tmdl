@@ -1,0 +1,79 @@
+table feature_importance_para_powerbi
+	lineageTag: 994d383b-334d-4673-a60f-c28b37412397
+
+	measure 'Importância Relativa (%)' = ```
+			
+			VAR TotalImportancia = CALCULATE(SUM('feature_importance_para_powerbi'[importance]), ALL('feature_importance_para_powerbi'))
+			RETURN
+			DIVIDE(SUM('feature_importance_para_powerbi'[importance]), TotalImportancia)
+			
+			```
+		lineageTag: 3523ef76-5ee4-40f6-bdef-414d47b8c260
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column importance
+		dataType: int64
+		formatString: 0
+		lineageTag: 278cfbd7-03a6-4511-8fd4-73789b19df24
+		summarizeBy: sum
+		sourceColumn: importance
+
+		annotation SummarizationSetBy = Automatic
+
+	column feature
+		dataType: string
+		lineageTag: 26cf7229-1f31-443e-96a9-f6be3e42c29f
+		summarizeBy: none
+		sourceColumn: feature
+
+		annotation SummarizationSetBy = Automatic
+
+	partition feature_importance_para_powerbi = m
+		mode: import
+		source = ```
+				let
+				    // 1. Carregamento dos dados
+				    Fonte = Csv.Document(File.Contents("C:\projetinhos para portfolios de dados leo\projeto_risco\reports\metrics\feature_importance_para_powerbi.csv"),[Delimiter=";", Columns=2, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"feature", type text}, {"importance", Int64.Type}}),
+				    
+				    // 2. Criação do Dicionário exato que você usou na outra tabela
+				    Traducoes = [
+				        person_age = "Idade",
+				        person_income = "Renda Anual",
+				        person_emp_length = "Tempo de Emprego (Anos)",
+				        loan_amnt = "Valor do Empréstimo",
+				        loan_int_rate = "Taxa de Juros (%)",
+				        loan_percent_income = "% da Renda Comprometida",
+				        cb_person_cred_hist_length = "Anos de Histórico de Crédito",
+				        dti_ratio = "Relação Dívida/Renda",
+				        taxa_juros_alta = "Indicador Juros Altos",
+				        loan_grade_num = "Score da Operação (Num)",
+				        cb_default_flag = "Histórico de Inadimplência (Bureau)",
+				        home_MORTGAGE = "Moradia_Financiada",
+				        home_OTHER = "Moradia_Outros",
+				        home_OWN = "Moradia_Propria",
+				        home_RENT = "Moradia_Aluguel",
+				        intent_DEBTCONSOLIDATION = "Motivo_Consolidacao_Divida",
+				        intent_EDUCATION = "Motivo_Educacao",
+				        intent_HOMEIMPROVEMENT = "Motivo_Reforma",
+				        intent_MEDICAL = "Motivo_Saude",
+				        intent_PERSONAL = "Motivo_Pessoal",
+				        intent_VENTURE = "Motivo_Empreendedorismo"
+				    ],
+				    
+				    // 3. Aplicação da Tradução
+				    #"Coluna Traduzida" = Table.AddColumn(#"Tipo Alterado", "Feature_Trad", each Record.FieldOrDefault(Traducoes, [feature], [feature])),
+				    
+				    // 4. Limpeza e Organização
+				    #"Colunas Removidas" = Table.RemoveColumns(#"Coluna Traduzida",{"feature"}),
+				    #"Colunas Renomeadas" = Table.RenameColumns(#"Colunas Removidas",{{"Feature_Trad", "feature"}})
+				in
+				    #"Colunas Renomeadas"
+				```
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navegação
+

@@ -16,7 +16,7 @@ table _Medidas
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
-	measure 'Volume em Risco (R$)' = ```
+	measure 'Volume em Risco ($)' = ```
 			
 			CALCULATE(
 			    SUM('predicoes_para_powerbi'[Valor do Empréstimo]), 
@@ -40,7 +40,7 @@ table _Medidas
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
-	measure 'Volume Total (R$)' = ```
+	measure 'Volume Total ($)' = ```
 			SUM('predicoes_para_powerbi'[Valor do Empréstimo])
 			
 			```
@@ -132,8 +132,102 @@ table _Medidas
 			```
 		lineageTag: 823477ce-d920-47b3-8cb4-fdb6e5ba6c67
 
-	measure Medida
-		lineageTag: 55c21920-72b6-4b6e-adb4-657c97e1656c
+	measure 'Recall LightGBM' = ```
+			
+			CALCULATE(
+			    MAX('comparativo_modelos_para_powerbi'[Recall]), 
+			    'comparativo_modelos_para_powerbi'[Modelo de ML] = "LightGBM"
+			)
+			
+			
+			```
+		lineageTag: b118b400-fc0f-4eeb-b954-d4332b33ccd5
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Precisão LightGBM' = ```
+			
+			CALCULATE(
+			    MAX('comparativo_modelos_para_powerbi'[Precision]), 
+			    'comparativo_modelos_para_powerbi'[Modelo de ML] = "LightGBM"
+			)
+			
+			```
+		lineageTag: b41d3f42-f73b-4392-b647-02c2e2b5297e
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'F1-Score LightGBM' = ```
+			
+			CALCULATE(
+			    MAX('comparativo_modelos_para_powerbi'[F1-Score]), 
+			    'comparativo_modelos_para_powerbi'[Modelo de ML] = "LightGBM"
+			)
+			
+			```
+		lineageTag: 9cb519ff-d6fe-4522-94fe-fdd2a0188b9f
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'ROC AUC' = ```
+			
+			CALCULATE(
+			    MAX('comparativo_modelos_para_powerbi'[ROC-AUC]), 
+			    'comparativo_modelos_para_powerbi'[Modelo de ML] = "LightGBM"
+			)
+			
+			```
+		lineageTag: 542ab1ce-a3b0-47f1-bbde-4b4616501d88
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Cor Categoria Risco' = ```
+			
+			SWITCH(SELECTEDVALUE('predicoes_para_powerbi'[Categoria de Risco]),
+			    "Muito Baixo", "#404040",
+			    "Baixo", "#5E5E5E",
+			    "Moderado", "#8367B8",
+			    "Alto", "#A278E1",
+			    "Muito Alto", "#E0D1FF",
+			    "#1C1C1C"
+			)
+			
+			```
+		lineageTag: edd28793-2d44-4a3f-859b-3f0e3a3068e5
+
+	measure 'Média Taxa Juros' = ```
+			AVERAGE('predicoes_para_powerbi'[Taxa de Juros (%)]) / 100
+			
+			
+			```
+		lineageTag: fae29685-b703-4792-9fdf-3a83defefcfb
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Cor Tema Categoria Risco Tabela' = ```
+			
+			SWITCH(SELECTEDVALUE('predicoes_para_powerbi'[Categoria de Risco]),
+			    "Muito Alto", "#A278E1",  // Roxo Vibrante (Destaque Máximo para o analista)
+			    "Alto", "#8C63C6",        // Roxo Suave
+			    "Moderado", "#666666",    // Cinza Médio (Atenção normal)
+			    "Baixo", "#444444",       // Cinza Escuro (Tranquilo)
+			    "Muito Baixo", "#2A2A2A", // Cinza bem apagado no fundo escuro (Super Seguro)
+			    "#666666"                 // Cor padrão caso a categoria venha vazia
+			)
+			
+			```
+		lineageTag: 8011efc2-d862-430f-bec3-8d67f920e21f
+
+	measure 'Cor Tema Inadimplencia Anterior tabela' = ```
+			
+			SWITCH(SELECTEDVALUE('predicoes_para_powerbi'[Inadimplência Anterior]),
+			    "Sim", "#A278E1",  // Roxo do tema (Destaca quem já deu calote no passado)
+			    "Não", "#444444",  // Cinza escuro (Deixa "apagado" quem tem o nome limpo)
+			    "#666666"          // Cor padrão
+			)
+			
+			```
+		lineageTag: 3a070f13-420c-4c99-8ff7-ad9d07c4fa0d
 
 	column 'Coluna 1'
 		dataType: string

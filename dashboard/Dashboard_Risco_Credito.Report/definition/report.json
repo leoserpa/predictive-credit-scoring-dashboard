@@ -47,8 +47,18 @@
       "type": "RegisteredResources",
       "items": [
         {
-          "name": "Template_Matte_EspacoMax_(6)6945499188889096.svg",
-          "path": "Template_Matte_EspacoMax_(6)6945499188889096.svg",
+          "name": "Template_Matte_Analise_P2_(7)9717995284497228.svg",
+          "path": "Template_Matte_Analise_P2_(7)9717995284497228.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Template_Matte_EspacoMax_(8)8042749680174602.svg",
+          "path": "Template_Matte_EspacoMax_(8)8042749680174602.svg",
+          "type": "Image"
+        },
+        {
+          "name": "bg_template_p3_operacao_(7)8828810194346309.svg",
+          "path": "bg_template_p3_operacao_(7)8828810194346309.svg",
           "type": "Image"
         }
       ]

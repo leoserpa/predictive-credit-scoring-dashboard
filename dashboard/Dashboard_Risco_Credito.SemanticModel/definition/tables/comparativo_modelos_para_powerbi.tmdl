@@ -1,0 +1,64 @@
+table comparativo_modelos_para_powerbi
+	lineageTag: 54bf9d93-91c5-430b-9821-72ae5a18afd0
+
+	column 'Modelo de ML'
+		dataType: string
+		lineageTag: 93455437-c9be-4f46-b2c1-4f88bf0a60eb
+		summarizeBy: none
+		sourceColumn: Modelo de ML
+
+		annotation SummarizationSetBy = Automatic
+
+	column ROC-AUC
+		dataType: double
+		lineageTag: 679c4714-4450-465f-a018-dbdf1ad725cd
+		summarizeBy: sum
+		sourceColumn: ROC-AUC
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column F1-Score
+		dataType: double
+		lineageTag: 496755f8-a77c-44f5-ba2c-21efce7662bd
+		summarizeBy: sum
+		sourceColumn: F1-Score
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Precision
+		dataType: double
+		lineageTag: 2d2fbfd4-feff-405b-af0a-bf53c9995ff3
+		summarizeBy: sum
+		sourceColumn: Precision
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Recall
+		dataType: double
+		lineageTag: 3b5decb4-35be-4ea7-b5f7-6a6045182ade
+		summarizeBy: sum
+		sourceColumn: Recall
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition comparativo_modelos_para_powerbi = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents("C:\projetinhos para portfolios de dados leo\projeto_risco\reports\metrics\comparativo_modelos_para_powerbi.csv"),[Delimiter=";", Columns=5, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"Unnamed: 0", type text}, {"ROC-AUC", type number}, {"F1-Score", type number}, {"Precision", type number}, {"Recall", type number}}),
+				    #"Colunas Renomeadas" = Table.RenameColumns(#"Tipo Alterado",{{"Unnamed: 0", "Modelo de ML"}})
+				in
+				    #"Colunas Renomeadas"
+
+	annotation PBI_ResultType = Table
+

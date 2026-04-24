@@ -1,2 +1,3944 @@
 cultureInfo en-US
 
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "predicoes_para_powerbi": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "predicoes_para_powerbi"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "predicoes para powerbi": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "predicoe para powerbi": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "predicoes_para_powerbi": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi.idade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "predicoes_para_powerbi",
+			          "ConceptualProperty": "Idade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "idade": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi.renda_anual": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "predicoes_para_powerbi",
+			          "ConceptualProperty": "Renda Anual"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "renda anual": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi.tempo_de_emprego_anos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "predicoes_para_powerbi",
+			          "ConceptualProperty": "Tempo de Emprego (Anos)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tempo de emprego (anos)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tempo de emprego (ano)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "tempo de emprego": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi.valor_do_empréstimo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "predicoes_para_powerbi",
+			          "ConceptualProperty": "Valor do Empréstimo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor do empréstimo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi.taxa_de_juro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "predicoes_para_powerbi",
+			          "ConceptualProperty": "Taxa de Juros (%)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "taxa de juro": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "taxon de juro": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "taxa de juro (%)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "taxon de juro (%)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "Taxa de Juros (%)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "percentage",
+			        "%"
+			      ]
+			    },
+			    "predicoes_para_powerbi.da_renda_comprometida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "predicoes_para_powerbi",
+			          "ConceptualProperty": "% da Renda Comprometida"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% da renda comprometida": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage da renda comprometida": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "pct da renda comprometida": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi.anos_de_histórico_de_crédito": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "predicoes_para_powerbi",
+			          "ConceptualProperty": "Anos de Histórico de Crédito"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "anos de histórico de crédito": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ano de histórico de crédito": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi.relação_dívida_renda": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "predicoes_para_powerbi",
+			          "ConceptualProperty": "Relação Dívida/Renda"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "relação dívida/renda": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "relação dívida": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "relação dívida renda": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "renda": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi.indicador_juros_alto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "predicoes_para_powerbi",
+			          "ConceptualProperty": "Indicador Juros Altos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "indicador juros alto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "indicador juro alto": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi.score_da_operação_num": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "predicoes_para_powerbi",
+			          "ConceptualProperty": "Score da Operação (Num)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "score da operação (num)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "score da operação": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi.histórico_de_inadimplência_bureau": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "predicoes_para_powerbi",
+			          "ConceptualProperty": "Histórico de Inadimplência (Bureau)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "histórico de inadimplência (bureau)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "histórico de inadimplência": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi.moradia_financiada": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "predicoes_para_powerbi",
+			          "ConceptualProperty": "Moradia_Financiada"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "moradia financiada": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Moradia_Financiada": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi.moradia_outro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "predicoes_para_powerbi",
+			          "ConceptualProperty": "Moradia_Outros"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "moradia outro": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Moradia_Outros": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi.moradia_propria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "predicoes_para_powerbi",
+			          "ConceptualProperty": "Moradia_Propria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "moradia propria": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Moradia_Propria": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi.moradia_aluguel": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "predicoes_para_powerbi",
+			          "ConceptualProperty": "Moradia_Aluguel"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "moradia aluguel": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Moradia_Aluguel": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi.motivo_consolidacao_divida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "predicoes_para_powerbi",
+			          "ConceptualProperty": "Motivo_Consolidacao_Divida"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "motivo consolidacao divida": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Motivo_Consolidacao_Divida": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi.motivo_educacao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "predicoes_para_powerbi",
+			          "ConceptualProperty": "Motivo_Educacao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "motivo educacao": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Motivo_Educacao": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi.motivo_reforma": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "predicoes_para_powerbi",
+			          "ConceptualProperty": "Motivo_Reforma"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "motivo reforma": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Motivo_Reforma": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi.motivo_saude": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "predicoes_para_powerbi",
+			          "ConceptualProperty": "Motivo_Saude"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "motivo saude": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Motivo_Saude": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi.motivo_pessoal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "predicoes_para_powerbi",
+			          "ConceptualProperty": "Motivo_Pessoal"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "motivo pessoal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Motivo_Pessoal": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi.motivo_empreendedorismo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "predicoes_para_powerbi",
+			          "ConceptualProperty": "Motivo_Empreendedorismo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "motivo empreendedorismo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Motivo_Empreendedorismo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi.inadimplência_real_target": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "predicoes_para_powerbi",
+			          "ConceptualProperty": "Inadimplência Real (Target)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "inadimplência real (target)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "inadimplência real": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "inadimplência real ( focus )": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "inadimplência real ( goal )": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "inadimplência real ( objective )": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi.inadimplência_prevista_modelo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "predicoes_para_powerbi",
+			          "ConceptualProperty": "Inadimplência Prevista (Modelo)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "inadimplência prevista (modelo)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "inadimplência prevista": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi.probabilidade_de_calote": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "predicoes_para_powerbi",
+			          "ConceptualProperty": "Probabilidade de Calote"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "probabilidade de calote": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi.categoria_de_risco": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "predicoes_para_powerbi",
+			          "ConceptualProperty": "Categoria de Risco"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "categoria de risco": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi.motivo_do_empréstimo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "predicoes_para_powerbi",
+			          "ConceptualProperty": "Motivo do Empréstimo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "motivo do empréstimo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi.tipo_de_moradia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "predicoes_para_powerbi",
+			          "ConceptualProperty": "Tipo de Moradia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo de moradia": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi.renda_anual_compartimentos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "predicoes_para_powerbi",
+			          "ConceptualProperty": "Renda Anual (compartimentos)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "renda anual (compartimentos)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "renda anual (compartimento)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "renda anual": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi.valor_do_empréstimo_compartimentos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "predicoes_para_powerbi",
+			          "ConceptualProperty": "Valor do Empréstimo (compartimentos)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor do empréstimo (compartimentos)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "valor do empréstimo (compartimento)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "valor do empréstimo": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi.probabilidade_de_calote_compartimentos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "predicoes_para_powerbi",
+			          "ConceptualProperty": "Probabilidade de Calote (compartimentos)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "probabilidade de calote (compartimentos)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "probabilidade de calote (compartimento)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "probabilidade de calote": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi.status_pagamento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "predicoes_para_powerbi",
+			          "ConceptualProperty": "Status Pagamento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "status pagamento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "category pagamento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "importance pagamento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "prestige pagamento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "prominence pagamento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "condition pagamento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "class pagamento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "grade pagamento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "level pagamento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "position pagamento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "rank pagamento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi.inadimplência_anterior": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "predicoes_para_powerbi",
+			          "ConceptualProperty": "Inadimplência Anterior"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "inadimplência anterior": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi.taxa_de_juros_formatada": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "predicoes_para_powerbi",
+			          "ConceptualProperty": "Taxa de Juros Formatada (%)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "taxa de juros formatada": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "taxon de juro formatada": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "taxa de juros formatada (%)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "taxon de juro formatada (%)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "Taxa de Juros (%)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "percentage",
+			        "%"
+			      ]
+			    },
+			    "entity__medida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_medida": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.coluna_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Coluna 1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "coluna 1": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.total_de_clientes": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Total de Clientes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total de clientes": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate de cliente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall de cliente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.média_de_risco": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Média de Risco"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "média de risco": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.volume_em_risco": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Volume em Risco ($)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "volume em risco": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "volume em risco ($)": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "dollar",
+			        "$"
+			      ]
+			    },
+			    "entity__medida.inadimplência_prevista": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "% Inadimplência Prevista"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% inadimplência prevista": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage inadimplência prevista": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "pct inadimplência prevista": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.volume_total": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Volume Total ($)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "volume total": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "volume total ($)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "volume aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "volume overall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "volume total ( dollar )": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "volume aggregate ($)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "volume overall ($)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "dollar",
+			        "$"
+			      ]
+			    },
+			    "entity__medida.cor_barra_destaque": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Cor Barra Destaque"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cor barra destaque": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.cor_treemap_ranking": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Cor Treemap Ranking"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cor treemap ranking": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cor treemap status": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "cor treemap classification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "cor treemap position": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "cor treemap place": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "cor treemap grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "cor treemap standing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "cor treemap level": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "cor treemap rank": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.menu_superior_HTML": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Menu Superior HTML"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "menu superior HTML": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "HTML": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "superior HTML": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.recall_LightGBM": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Recall LightGBM"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "recall LightGBM": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.precisão_LightGBM": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Precisão LightGBM"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "precisão LightGBM": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.F1score_LightGBM": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "F1-Score LightGBM"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "F1-score LightGBM": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "F1 score LightGBM": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.roc_auc": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "ROC AUC"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "roc auc": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.cor_categoria_risco": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Cor Categoria Risco"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cor categoria risco": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.média_taxa_juros": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Média Taxa Juros"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "média taxa juros": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.cor_tema_categoria_risco_tabela": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Cor Tema Categoria Risco Tabela"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cor tema categoria risco tabela": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "comparativo_modelos_para_powerbi": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "comparativo_modelos_para_powerbi"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "comparativo modelos para powerbi": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "comparativo modelo para powerbi": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "comparativo_modelos_para_powerbi": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "comparativo_modelos_para_powerbi.modelo_de_ML": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "comparativo_modelos_para_powerbi",
+			          "ConceptualProperty": "Modelo de ML"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "modelo de ML": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "comparativo_modelos_para_powerbi.rocauc": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "comparativo_modelos_para_powerbi",
+			          "ConceptualProperty": "ROC-AUC"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "roc-auc": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "comparativo_modelos_para_powerbi.F1score": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "comparativo_modelos_para_powerbi",
+			          "ConceptualProperty": "F1-Score"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "F1-score": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "F1 score": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "score": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "f1-notch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "f1-slash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "f1-groove": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "f1-nick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "f1-cut": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "f1-mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "f1 notch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "f1 slash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "f1 groove": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "f1 nick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "comparativo_modelos_para_powerbi.precision": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "comparativo_modelos_para_powerbi",
+			          "ConceptualProperty": "Precision"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "precision": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "exactness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "accuracy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "meticulousness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "correctness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "exactitude": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "fastidiousness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "strictness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "care": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "comparativo_modelos_para_powerbi.recall": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "comparativo_modelos_para_powerbi",
+			          "ConceptualProperty": "Recall"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "recall": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "memory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "recollection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "remembrance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "reminiscence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "feature_importance_para_powerbi": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "feature_importance_para_powerbi"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "feature importance para powerbi": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "feature_importance_para_powerbi": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "feature_importance_para_powerbi.importance": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "feature_importance_para_powerbi",
+			          "ConceptualProperty": "importance"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "importance": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "status": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "reputation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "position": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "standing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "significance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "consequence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "magnitude": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "substance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "meaning": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "feature_importance_para_powerbi.feature": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "feature_importance_para_powerbi",
+			          "ConceptualProperty": "feature"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "feature": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "eye": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "nose": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mouth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "ear": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "chin": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "article": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "piece": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "story": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "report": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "item": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "feature_importance_para_powerbi.importância_relativa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "feature_importance_para_powerbi",
+			          "ConceptualProperty": "Importância Relativa (%)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "importância relativa": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "importância relativa (%)": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "percentage",
+			        "%"
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "predicoes_para_powerbi_has_idade": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "predicoes_para_powerbi.idade": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi.idade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "predicoes_para_powerbi.idade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_idades"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_renda_anual": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "predicoes_para_powerbi.renda_anual": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi.renda_anual"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "predicoes_para_powerbi.renda_anual"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_renda_anuals"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_tempo_de_emprego_anos": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "predicoes_para_powerbi.tempo_de_emprego_anos": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi.tempo_de_emprego_anos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "predicoes_para_powerbi.tempo_de_emprego_anos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_tempo_de_emprego_anos"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_valor_do_empréstimo": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "predicoes_para_powerbi.valor_do_empréstimo": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi.valor_do_empréstimo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "predicoes_para_powerbi.valor_do_empréstimo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_valor_do_empréstimos"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_taxa_de_juro": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "predicoes_para_powerbi.taxa_de_juro": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi.taxa_de_juro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "predicoes_para_powerbi.taxa_de_juro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_taxa_de_juros"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_da_renda_comprometida": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "predicoes_para_powerbi.da_renda_comprometida": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi.da_renda_comprometida"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "predicoes_para_powerbi.da_renda_comprometida"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have__da_renda_comprometidas"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_anos_de_histórico_de_crédito": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "predicoes_para_powerbi.anos_de_histórico_de_crédito": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi.anos_de_histórico_de_crédito"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "predicoes_para_powerbi.anos_de_histórico_de_crédito"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_anos_de_histórico_de_créditos"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_relação_dívida_renda": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "predicoes_para_powerbi.relação_dívida_renda": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi.relação_dívida_renda"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "predicoes_para_powerbi.relação_dívida_renda"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_relação_dívida_rendas"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_indicador_juros_alto": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "predicoes_para_powerbi.indicador_juros_alto": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi.indicador_juros_alto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "predicoes_para_powerbi.indicador_juros_alto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_indicador_juros_altos"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_score_da_operação_num": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "predicoes_para_powerbi.score_da_operação_num": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi.score_da_operação_num"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "predicoes_para_powerbi.score_da_operação_num"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_score_da_operação_num"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_histórico_de_inadimplência_bureau": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "predicoes_para_powerbi.histórico_de_inadimplência_bureau": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi.histórico_de_inadimplência_bureau"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "predicoes_para_powerbi.histórico_de_inadimplência_bureau"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_histórico_de_inadimplência_bureau"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_moradia_financiada": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "predicoes_para_powerbi.moradia_financiada": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi.moradia_financiada"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "predicoes_para_powerbi.moradia_financiada"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_moradia_financiadas"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_moradia_outro": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "predicoes_para_powerbi.moradia_outro": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi.moradia_outro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "predicoes_para_powerbi.moradia_outro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_moradia_outros"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_moradia_propria": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "predicoes_para_powerbi.moradia_propria": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi.moradia_propria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "predicoes_para_powerbi.moradia_propria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_moradia_proprias"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_moradia_aluguel": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "predicoes_para_powerbi.moradia_aluguel": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi.moradia_aluguel"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "predicoes_para_powerbi.moradia_aluguel"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_moradia_aluguels"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_motivo_consolidacao_divida": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "predicoes_para_powerbi.motivo_consolidacao_divida": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi.motivo_consolidacao_divida"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "predicoes_para_powerbi.motivo_consolidacao_divida"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_motivo_consolidacao_dividas"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_motivo_educacao": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "predicoes_para_powerbi.motivo_educacao": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi.motivo_educacao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "predicoes_para_powerbi.motivo_educacao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_motivo_educacaos"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_motivo_reforma": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "predicoes_para_powerbi.motivo_reforma": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi.motivo_reforma"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "predicoes_para_powerbi.motivo_reforma"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_motivo_reformas"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_motivo_saude": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "predicoes_para_powerbi.motivo_saude": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi.motivo_saude"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "predicoes_para_powerbi.motivo_saude"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_motivo_saudes"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_motivo_pessoal": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "predicoes_para_powerbi.motivo_pessoal": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi.motivo_pessoal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "predicoes_para_powerbi.motivo_pessoal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_motivo_pessoals"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_motivo_empreendedorismo": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "predicoes_para_powerbi.motivo_empreendedorismo": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi.motivo_empreendedorismo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "predicoes_para_powerbi.motivo_empreendedorismo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_motivo_empreendedorismos"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_inadimplência_real_target": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "predicoes_para_powerbi.inadimplência_real_target": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi.inadimplência_real_target"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "predicoes_para_powerbi.inadimplência_real_target"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_inadimplência_real_target"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_inadimplência_prevista_modelo": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "predicoes_para_powerbi.inadimplência_prevista_modelo": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi.inadimplência_prevista_modelo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "predicoes_para_powerbi.inadimplência_prevista_modelo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_inadimplência_prevista_modelo"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_probabilidade_de_calote": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "predicoes_para_powerbi.probabilidade_de_calote": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi.probabilidade_de_calote"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "predicoes_para_powerbi.probabilidade_de_calote"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_probabilidade_de_calotes"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_categoria_de_risco": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "predicoes_para_powerbi.categoria_de_risco": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi.categoria_de_risco"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "predicoes_para_powerbi.categoria_de_risco"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_categoria_de_riscos"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_motivo_do_empréstimo": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "predicoes_para_powerbi.motivo_do_empréstimo": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi.motivo_do_empréstimo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "predicoes_para_powerbi.motivo_do_empréstimo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_motivo_do_empréstimos"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_tipo_de_moradia": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "predicoes_para_powerbi.tipo_de_moradia": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi.tipo_de_moradia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "predicoes_para_powerbi.tipo_de_moradia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_tipo_de_moradias"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_renda_anual_compartimentos": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "predicoes_para_powerbi.renda_anual_compartimentos": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi.renda_anual_compartimentos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "predicoes_para_powerbi.renda_anual_compartimentos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_renda_anual_compartimentos"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_valor_do_empréstimo_compartimentos": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "predicoes_para_powerbi.valor_do_empréstimo_compartimentos": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi.valor_do_empréstimo_compartimentos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "predicoes_para_powerbi.valor_do_empréstimo_compartimentos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_valor_do_empréstimo_compartimentos"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_probabilidade_de_calote_compartimentos": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "predicoes_para_powerbi.probabilidade_de_calote_compartimentos": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi.probabilidade_de_calote_compartimentos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "predicoes_para_powerbi.probabilidade_de_calote_compartimentos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_probabilidade_de_calote_compartimentos"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_status_pagamento": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "predicoes_para_powerbi.status_pagamento": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi.status_pagamento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "predicoes_para_powerbi.status_pagamento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_status_pagamentos"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_inadimplência_anterior": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "predicoes_para_powerbi.inadimplência_anterior": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi.inadimplência_anterior"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "predicoes_para_powerbi.inadimplência_anterior"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_inadimplência_anterior"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_taxa_de_juros_formatada": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "predicoes_para_powerbi.taxa_de_juros_formatada": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi.taxa_de_juros_formatada"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "predicoes_para_powerbi.taxa_de_juros_formatada"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_taxa_de_juros_formatadas"
+			        }
+			      ]
+			    },
+			    "entity__medida_has_coluna_1": {
+			      "Binding": {
+			        "ConceptualEntity": "_Medidas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity__medida": {
+			          "Target": {
+			            "Entity": "entity__medida"
+			          }
+			        },
+			        "entity__medida.coluna_1": {
+			          "Target": {
+			            "Entity": "entity__medida.coluna_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity__medida"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.coluna_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing_medidas_have_coluna_1"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_entity__medida_total_de_clientes": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "entity__medida.total_de_clientes": {
+			          "Target": {
+			            "Entity": "entity__medida.total_de_clientes"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.total_de_clientes"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_total_de_clientes"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_entity__medida_média_de_risco": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "entity__medida.média_de_risco": {
+			          "Target": {
+			            "Entity": "entity__medida.média_de_risco"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.média_de_risco"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_média_de_risco"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_entity__medida_volume_em_risco": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "entity__medida.volume_em_risco": {
+			          "Target": {
+			            "Entity": "entity__medida.volume_em_risco"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.volume_em_risco"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_volume_em_risco"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_entity__medida_inadimplência_prevista": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "entity__medida.inadimplência_prevista": {
+			          "Target": {
+			            "Entity": "entity__medida.inadimplência_prevista"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.inadimplência_prevista"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have__inadimplência_prevista"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_entity__medida_volume_total": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "entity__medida.volume_total": {
+			          "Target": {
+			            "Entity": "entity__medida.volume_total"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.volume_total"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_volume_total"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_entity__medida_cor_barra_destaque": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "entity__medida.cor_barra_destaque": {
+			          "Target": {
+			            "Entity": "entity__medida.cor_barra_destaque"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.cor_barra_destaque"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_cor_barra_destaque"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_entity__medida_cor_treemap_ranking": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "entity__medida.cor_treemap_ranking": {
+			          "Target": {
+			            "Entity": "entity__medida.cor_treemap_ranking"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.cor_treemap_ranking"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_cor_treemap_ranking"
+			        }
+			      ]
+			    },
+			    "entity__medida_has_menu_superior_HTML": {
+			      "Binding": {
+			        "ConceptualEntity": "_Medidas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity__medida": {
+			          "Target": {
+			            "Entity": "entity__medida"
+			          }
+			        },
+			        "entity__medida.menu_superior_HTML": {
+			          "Target": {
+			            "Entity": "entity__medida.menu_superior_HTML"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity__medida"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.menu_superior_HTML"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing_medidas_have_menu_superior_HTML"
+			        }
+			      ]
+			    },
+			    "comparativo_modelos_para_powerbi_has_entity__medida_recall_LightGBM": {
+			      "Binding": {
+			        "ConceptualEntity": "comparativo_modelos_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "comparativo_modelos_para_powerbi": {
+			          "Target": {
+			            "Entity": "comparativo_modelos_para_powerbi"
+			          }
+			        },
+			        "entity__medida.recall_LightGBM": {
+			          "Target": {
+			            "Entity": "entity__medida.recall_LightGBM"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comparativo_modelos_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.recall_LightGBM"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "comparativo_modelos_para_powerbis_have_recall_LightGBM"
+			        }
+			      ]
+			    },
+			    "comparativo_modelos_para_powerbi_has_entity__medida_precisão_LightGBM": {
+			      "Binding": {
+			        "ConceptualEntity": "comparativo_modelos_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "comparativo_modelos_para_powerbi": {
+			          "Target": {
+			            "Entity": "comparativo_modelos_para_powerbi"
+			          }
+			        },
+			        "entity__medida.precisão_LightGBM": {
+			          "Target": {
+			            "Entity": "entity__medida.precisão_LightGBM"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comparativo_modelos_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.precisão_LightGBM"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "comparativo_modelos_para_powerbis_have_precisão_LightGBM"
+			        }
+			      ]
+			    },
+			    "comparativo_modelos_para_powerbi_has_entity__medida_F1score_LightGBM": {
+			      "Binding": {
+			        "ConceptualEntity": "comparativo_modelos_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "comparativo_modelos_para_powerbi": {
+			          "Target": {
+			            "Entity": "comparativo_modelos_para_powerbi"
+			          }
+			        },
+			        "entity__medida.F1score_LightGBM": {
+			          "Target": {
+			            "Entity": "entity__medida.F1score_LightGBM"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comparativo_modelos_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.F1score_LightGBM"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "comparativo_modelos_para_powerbis_have_F1score_LightGBM"
+			        }
+			      ]
+			    },
+			    "comparativo_modelos_para_powerbi_has_entity__medida_roc_auc": {
+			      "Binding": {
+			        "ConceptualEntity": "comparativo_modelos_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "comparativo_modelos_para_powerbi": {
+			          "Target": {
+			            "Entity": "comparativo_modelos_para_powerbi"
+			          }
+			        },
+			        "entity__medida.roc_auc": {
+			          "Target": {
+			            "Entity": "entity__medida.roc_auc"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comparativo_modelos_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.roc_auc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "comparativo_modelos_para_powerbis_have_roc_auc"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_entity__medida_cor_categoria_risco": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "entity__medida.cor_categoria_risco": {
+			          "Target": {
+			            "Entity": "entity__medida.cor_categoria_risco"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.cor_categoria_risco"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_cor_categoria_risco"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_entity__medida_média_taxa_juros": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "entity__medida.média_taxa_juros": {
+			          "Target": {
+			            "Entity": "entity__medida.média_taxa_juros"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.média_taxa_juros"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_média_taxa_juros"
+			        }
+			      ]
+			    },
+			    "predicoes_para_powerbi_has_entity__medida_cor_tema_categoria_risco_tabela": {
+			      "Binding": {
+			        "ConceptualEntity": "predicoes_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "predicoes_para_powerbi": {
+			          "Target": {
+			            "Entity": "predicoes_para_powerbi"
+			          }
+			        },
+			        "entity__medida.cor_tema_categoria_risco_tabela": {
+			          "Target": {
+			            "Entity": "entity__medida.cor_tema_categoria_risco_tabela"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "predicoes_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.cor_tema_categoria_risco_tabela"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "predicoes_para_powerbis_have_cor_tema_categoria_risco_tabela"
+			        }
+			      ]
+			    },
+			    "comparativo_modelos_para_powerbi_has_modelo_de_ML": {
+			      "Binding": {
+			        "ConceptualEntity": "comparativo_modelos_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "comparativo_modelos_para_powerbi": {
+			          "Target": {
+			            "Entity": "comparativo_modelos_para_powerbi"
+			          }
+			        },
+			        "comparativo_modelos_para_powerbi.modelo_de_ML": {
+			          "Target": {
+			            "Entity": "comparativo_modelos_para_powerbi.modelo_de_ML"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comparativo_modelos_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "comparativo_modelos_para_powerbi.modelo_de_ML"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "comparativo_modelos_para_powerbis_have_modelo_de_ML"
+			        }
+			      ]
+			    },
+			    "comparativo_modelos_para_powerbi_has_rocauc": {
+			      "Binding": {
+			        "ConceptualEntity": "comparativo_modelos_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "comparativo_modelos_para_powerbi": {
+			          "Target": {
+			            "Entity": "comparativo_modelos_para_powerbi"
+			          }
+			        },
+			        "comparativo_modelos_para_powerbi.rocauc": {
+			          "Target": {
+			            "Entity": "comparativo_modelos_para_powerbi.rocauc"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comparativo_modelos_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "comparativo_modelos_para_powerbi.rocauc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "comparativo_modelos_para_powerbis_have_rocaucs"
+			        }
+			      ]
+			    },
+			    "comparativo_modelos_para_powerbi_has_F1score": {
+			      "Binding": {
+			        "ConceptualEntity": "comparativo_modelos_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "comparativo_modelos_para_powerbi": {
+			          "Target": {
+			            "Entity": "comparativo_modelos_para_powerbi"
+			          }
+			        },
+			        "comparativo_modelos_para_powerbi.F1score": {
+			          "Target": {
+			            "Entity": "comparativo_modelos_para_powerbi.F1score"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comparativo_modelos_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "comparativo_modelos_para_powerbi.F1score"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "comparativo_modelos_para_powerbis_have_F1scores"
+			        }
+			      ]
+			    },
+			    "comparativo_modelos_para_powerbi_has_precision": {
+			      "Binding": {
+			        "ConceptualEntity": "comparativo_modelos_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "comparativo_modelos_para_powerbi": {
+			          "Target": {
+			            "Entity": "comparativo_modelos_para_powerbi"
+			          }
+			        },
+			        "comparativo_modelos_para_powerbi.precision": {
+			          "Target": {
+			            "Entity": "comparativo_modelos_para_powerbi.precision"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comparativo_modelos_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "comparativo_modelos_para_powerbi.precision"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "comparativo_modelos_para_powerbis_have_precisions"
+			        }
+			      ]
+			    },
+			    "comparativo_modelos_para_powerbi_has_recall": {
+			      "Binding": {
+			        "ConceptualEntity": "comparativo_modelos_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "comparativo_modelos_para_powerbi": {
+			          "Target": {
+			            "Entity": "comparativo_modelos_para_powerbi"
+			          }
+			        },
+			        "comparativo_modelos_para_powerbi.recall": {
+			          "Target": {
+			            "Entity": "comparativo_modelos_para_powerbi.recall"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "comparativo_modelos_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "comparativo_modelos_para_powerbi.recall"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "comparativo_modelos_para_powerbis_have_recalls"
+			        }
+			      ]
+			    },
+			    "feature_importance_para_powerbi_has_importance": {
+			      "Binding": {
+			        "ConceptualEntity": "feature_importance_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "feature_importance_para_powerbi": {
+			          "Target": {
+			            "Entity": "feature_importance_para_powerbi"
+			          }
+			        },
+			        "feature_importance_para_powerbi.importance": {
+			          "Target": {
+			            "Entity": "feature_importance_para_powerbi.importance"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "feature_importance_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "feature_importance_para_powerbi.importance"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "feature_importance_para_powerbis_have_importance"
+			        }
+			      ]
+			    },
+			    "feature_importance_para_powerbi_has_feature": {
+			      "Binding": {
+			        "ConceptualEntity": "feature_importance_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "feature_importance_para_powerbi": {
+			          "Target": {
+			            "Entity": "feature_importance_para_powerbi"
+			          }
+			        },
+			        "feature_importance_para_powerbi.feature": {
+			          "Target": {
+			            "Entity": "feature_importance_para_powerbi.feature"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "feature_importance_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "feature_importance_para_powerbi.feature"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "feature_importance_para_powerbis_have_features"
+			        }
+			      ]
+			    },
+			    "feature_importance_para_powerbi_has_importância_relativa": {
+			      "Binding": {
+			        "ConceptualEntity": "feature_importance_para_powerbi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "feature_importance_para_powerbi": {
+			          "Target": {
+			            "Entity": "feature_importance_para_powerbi"
+			          }
+			        },
+			        "feature_importance_para_powerbi.importância_relativa": {
+			          "Target": {
+			            "Entity": "feature_importance_para_powerbi.importância_relativa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "feature_importance_para_powerbi"
+			            },
+			            "Object": {
+			              "Role": "feature_importance_para_powerbi.importância_relativa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "feature_importance_para_powerbis_have_importância_relativa"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+
