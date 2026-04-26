@@ -376,7 +376,7 @@ table predicoes_para_powerbi
 
 		annotation SummarizationSetBy = Automatic
 
-	column 'Inadimplência Anterior' = ```
+	column 'Histórico de Inadimplência' = ```
 			IF('predicoes_para_powerbi'[Histórico de Inadimplência (Bureau)] = 1, "Sim", "Não")
 			
 			```

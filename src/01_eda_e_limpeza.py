@@ -27,7 +27,7 @@ try:
     BASE_DIR = Path('/content')
 except ImportError:
     AMBIENTE = 'LOCAL'
-    BASE_DIR = Path(r'c:\projetinhos para portfolios de dados leo\projeto_risco')
+    BASE_DIR = Path(r'c:\projetinhos\projeto_risco')
 
 INPUT_FILE = BASE_DIR / 'credit_risk_dataset.csv'
 OUTPUT_DIR = BASE_DIR / 'output'

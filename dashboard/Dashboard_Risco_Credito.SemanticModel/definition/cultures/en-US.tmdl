@@ -892,7 +892,7 @@ cultureInfo en-US
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "predicoes_para_powerbi",
-			          "ConceptualProperty": "Inadimplência Anterior"
+			          "ConceptualProperty": "Histórico de Inadimplência"
 			        }
 			      },
 			      "State": "Generated",

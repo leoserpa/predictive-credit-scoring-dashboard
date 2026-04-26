@@ -1,0 +1,397 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/bookmark/2.0.0/schema.json",
+  "displayName": "Filtros Limpos P1",
+  "name": "9a869c845b93e4199842",
+  "options": {
+    "targetVisualNames": [],
+    "suppressActiveSection": true,
+    "suppressDisplay": true
+  },
+  "explorationState": {
+    "version": "1.3",
+    "activeSection": "59db9f30b34de1474e73",
+    "sections": {
+      "59db9f30b34de1474e73": {
+        "visualContainers": {
+          "030f2574a1aed79da606": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "0d60b4b0e77272078592": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "ad7c07a680eb20042504",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Medidas"
+                        }
+                      },
+                      "Property": "Volume em Risco ($)"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Medidas"
+                        }
+                      },
+                      "Property": "Volume em Risco ($)"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "1b7e0be995583b7256dc": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "305d960a032ea6c07cc0": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "574b9feeacd4aa7c6a47": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "5f3eaf4602bda51c3c52",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "predicoes_para_powerbi"
+                        }
+                      },
+                      "Property": "Motivo do Empréstimo"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "87562950d50156430322",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Medidas"
+                        }
+                      },
+                      "Property": "Volume Total ($)"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "treemap",
+              "objects": {},
+              "activeProjections": {
+                "Group": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "predicoes_para_powerbi"
+                        }
+                      },
+                      "Property": "Motivo do Empréstimo"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "741f09526b0806e72c4b": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "ae7caf26b78201073a00": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "aa894473601530045664",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "predicoes_para_powerbi"
+                        }
+                      },
+                      "Property": "Categoria de Risco"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "1e3d711a0e72a5b04303",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Medidas"
+                        }
+                      },
+                      "Property": "Total de Clientes"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "donutChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Medidas"
+                        }
+                      },
+                      "Property": "Total de Clientes"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "predicoes_para_powerbi"
+                        }
+                      },
+                      "Property": "Categoria de Risco"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "ba37c4c62ca92e759e1e": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "ae9b55388467beedd5d6",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Medidas"
+                        }
+                      },
+                      "Property": "Média de Risco"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Medidas"
+                        }
+                      },
+                      "Property": "Média de Risco"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "df7e4f5a1314cd2dc650": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "ce03fa9005e782db826e",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Medidas"
+                        }
+                      },
+                      "Property": "Total de Clientes"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Medidas"
+                        }
+                      },
+                      "Property": "Total de Clientes"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "e9f19003416991e290d8": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "25d0d75aac86d6e5d3c0",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Medidas"
+                        }
+                      },
+                      "Property": "Volume Total ($)"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Medidas"
+                        }
+                      },
+                      "Property": "Volume Total ($)"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "f409f4690e66d3186076": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "94fc9b470e4eac6615d1",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "predicoes_para_powerbi"
+                        }
+                      },
+                      "Property": "Motivo do Empréstimo"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "a32d123bc8932ace225a",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Medidas"
+                        }
+                      },
+                      "Property": "Média de Risco"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "barChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Medidas"
+                        }
+                      },
+                      "Property": "Média de Risco"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "predicoes_para_powerbi"
+                        }
+                      },
+                      "Property": "Motivo do Empréstimo"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "objects": {}
+  }
+}

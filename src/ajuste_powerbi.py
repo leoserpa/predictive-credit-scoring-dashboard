@@ -2,7 +2,7 @@ import pandas as pd
 from pathlib import Path
 
 # Configuração de caminhos
-BASE_DIR = Path(r'c:\projetinhos para portfolios de dados leo\projeto_risco')
+BASE_DIR = Path(r'c:\projetinhos\projeto_risco')
 DATA_DIR = BASE_DIR / 'data' / 'processed'
 METRICS_DIR = BASE_DIR / 'reports' / 'metrics'
 

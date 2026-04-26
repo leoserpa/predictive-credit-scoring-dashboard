@@ -1,0 +1,878 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "36b9e1180c1e122ae40e",
+  "position": {
+    "x": 233.8235294117647,
+    "y": 182.35294117647058,
+    "z": 7000,
+    "height": 514.7058823529411,
+    "width": 1026.4705882352941,
+    "tabOrder": 7000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "predicoes_para_powerbi"
+                    }
+                  },
+                  "Property": "Idade"
+                }
+              },
+              "queryRef": "Sum(predicoes_para_powerbi.Idade)",
+              "nativeQueryRef": "Idade"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "predicoes_para_powerbi"
+                    }
+                  },
+                  "Property": "Tempo de Emprego (Anos)"
+                }
+              },
+              "queryRef": "Sum(predicoes_para_powerbi.Tempo de Emprego (Anos))",
+              "nativeQueryRef": "Tempo de Emprego (Anos)"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "predicoes_para_powerbi"
+                    }
+                  },
+                  "Property": "Renda Anual"
+                }
+              },
+              "queryRef": "Sum(predicoes_para_powerbi.Renda Anual)",
+              "nativeQueryRef": "Renda Anual",
+              "format": "\\$#,0;(\\$#,0);\\$#,0"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "predicoes_para_powerbi"
+                    }
+                  },
+                  "Property": "Valor do Empréstimo"
+                }
+              },
+              "queryRef": "Sum(predicoes_para_powerbi.Valor do Empréstimo)",
+              "nativeQueryRef": "Valor do Empréstimo",
+              "format": "\\$#,0;(\\$#,0);\\$#,0"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "predicoes_para_powerbi"
+                    }
+                  },
+                  "Property": "% da Renda Comprometida"
+                }
+              },
+              "queryRef": "Sum(predicoes_para_powerbi.% da Renda Comprometida)",
+              "nativeQueryRef": "% da Renda Comprometida",
+              "format": "0%;-0%;0%"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "predicoes_para_powerbi"
+                    }
+                  },
+                  "Property": "Taxa de Juros Formatada (%)"
+                }
+              },
+              "queryRef": "Sum(predicoes_para_powerbi.Taxa de Juros Formatada (%))",
+              "nativeQueryRef": "Taxa de Juros (%)",
+              "displayName": "Taxa de Juros (%)",
+              "format": "0.00%;-0.00%;0.00%"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "predicoes_para_powerbi"
+                    }
+                  },
+                  "Property": "Motivo do Empréstimo"
+                }
+              },
+              "queryRef": "predicoes_para_powerbi.Motivo do Empréstimo",
+              "nativeQueryRef": "Motivo do Empréstimo"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "predicoes_para_powerbi"
+                    }
+                  },
+                  "Property": "Histórico de Inadimplência"
+                }
+              },
+              "queryRef": "predicoes_para_powerbi.Inadimplência Anterior",
+              "nativeQueryRef": "Histórico de Inadimplência"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "predicoes_para_powerbi"
+                    }
+                  },
+                  "Property": "Probabilidade de Calote"
+                }
+              },
+              "queryRef": "Sum(predicoes_para_powerbi.Probabilidade de Calote)",
+              "nativeQueryRef": "Probabilidade de Calote",
+              "format": "0.0%;-0.0%;0.0%"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "predicoes_para_powerbi"
+                    }
+                  },
+                  "Property": "Categoria de Risco"
+                }
+              },
+              "queryRef": "predicoes_para_powerbi.Categoria de Risco",
+              "nativeQueryRef": "Categoria de Risco"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "predicoes_para_powerbi"
+                  }
+                },
+                "Property": "Categoria de Risco"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "92.42160298207895D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Sum(predicoes_para_powerbi.Renda Anual)"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "92.77794669400625D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Sum(predicoes_para_powerbi.Valor do Empréstimo)"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "114.7398099457054D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Sum(predicoes_para_powerbi.% da Renda Comprometida)"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "169.54599666347778D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "predicoes_para_powerbi.Motivo do Empréstimo"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "91.78310114473801D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Sum(predicoes_para_powerbi.Probabilidade de Calote)"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "60.07409272332707D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Sum(predicoes_para_powerbi.Idade)"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "88.64705234370263D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "predicoes_para_powerbi.Categoria de Risco"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "106.2386230052902D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Sum(predicoes_para_powerbi.Tempo de Emprego (Anos))"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "97.94117574233198D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "predicoes_para_powerbi.Inadimplência Anterior"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "91.88236152094156D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Sum(predicoes_para_powerbi.Taxa de Juros Formatada (%))"
+          }
+        }
+      ],
+      "values": [
+        {
+          "properties": {
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Medidas"
+                        }
+                      },
+                      "Property": "Cor Categoria Risco2"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 1
+                }
+              }
+            ],
+            "metadata": "predicoes_para_powerbi.Categoria de Risco"
+          }
+        },
+        {
+          "properties": {
+            "backColorPrimary": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#141414'"
+                    }
+                  }
+                }
+              }
+            },
+            "backColorSecondary": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#141414'"
+                    }
+                  }
+                }
+              }
+            },
+            "fontColorSecondary": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#FFFFFF'"
+                    }
+                  }
+                }
+              }
+            },
+            "fontColorPrimary": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#FFFFFF'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "properties": {
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Medidas"
+                        }
+                      },
+                      "Property": "Cor Tema Inadimplencia Anterior tabela"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 1
+                }
+              }
+            ],
+            "metadata": "predicoes_para_powerbi.Inadimplência Anterior"
+          }
+        }
+      ],
+      "total": [
+        {
+          "properties": {
+            "totals": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#404040'"
+                    }
+                  }
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#FFFFFF'"
+                    }
+                  }
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Left'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "grid": [
+        {
+          "properties": {
+            "gridHorizontal": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "outlineColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#404040'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnFormatting": [
+        {
+          "properties": {
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Center'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Sum(predicoes_para_powerbi.Idade)"
+          }
+        },
+        {
+          "properties": {
+            "dataBars": {
+              "positiveColor": {
+                "solid": {
+                  "color": {
+                    "expr": {
+                      "Literal": {
+                        "Value": "'#A278E1'"
+                      }
+                    }
+                  }
+                }
+              },
+              "negativeColor": {
+                "solid": {
+                  "color": {
+                    "expr": {
+                      "Literal": {
+                        "Value": "'#444444'"
+                      }
+                    }
+                  }
+                }
+              },
+              "axisColor": {
+                "solid": {
+                  "color": {
+                    "expr": {
+                      "Literal": {
+                        "Value": "'foreground'"
+                      }
+                    }
+                  }
+                }
+              },
+              "reverseDirection": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              },
+              "hideText": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              },
+              "totalMatchingOption": {
+                "expr": {
+                  "Literal": {
+                    "Value": "1L"
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Sum(predicoes_para_powerbi.% da Renda Comprometida)"
+          }
+        },
+        {
+          "properties": {
+            "dataBars": {
+              "positiveColor": {
+                "solid": {
+                  "color": {
+                    "expr": {
+                      "Literal": {
+                        "Value": "'#A278E1'"
+                      }
+                    }
+                  }
+                }
+              },
+              "negativeColor": {
+                "solid": {
+                  "color": {
+                    "expr": {
+                      "Literal": {
+                        "Value": "'#444444'"
+                      }
+                    }
+                  }
+                }
+              },
+              "axisColor": {
+                "solid": {
+                  "color": {
+                    "expr": {
+                      "Literal": {
+                        "Value": "'foreground'"
+                      }
+                    }
+                  }
+                }
+              },
+              "reverseDirection": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              },
+              "hideText": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              },
+              "totalMatchingOption": {
+                "expr": {
+                  "Literal": {
+                    "Value": "1L"
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Sum(predicoes_para_powerbi.Valor do Empréstimo)"
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "stylePreset": [
+        {
+          "properties": {
+            "name": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Minimal'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Painel de Avaliação de Risco'"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#FFFFFF'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Detalhamento do perfil financeiro e probabilidade de calote por cliente.'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "1eb55fe00302848e8e8d",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "predicoes_para_powerbi"
+              }
+            },
+            "Property": "Idade"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "500b23d9b66c75830369",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "predicoes_para_powerbi"
+              }
+            },
+            "Property": "Tempo de Emprego (Anos)"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "4eefaa81c28225c4bc03",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "predicoes_para_powerbi"
+              }
+            },
+            "Property": "Renda Anual"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "303c24ca09645ac207d1",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "predicoes_para_powerbi"
+              }
+            },
+            "Property": "Valor do Empréstimo"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "a77d6353ad4b0a370950",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "predicoes_para_powerbi"
+              }
+            },
+            "Property": "% da Renda Comprometida"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "3cd3dfca2d3208b10e7b",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "predicoes_para_powerbi"
+              }
+            },
+            "Property": "Taxa de Juros Formatada (%)"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "1d29ed406006e8e06242",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "predicoes_para_powerbi"
+              }
+            },
+            "Property": "Motivo do Empréstimo"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "201ebacbadcc301b30a0",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "predicoes_para_powerbi"
+              }
+            },
+            "Property": "Histórico de Inadimplência"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "86f285f153620e7e077e",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "predicoes_para_powerbi"
+              }
+            },
+            "Property": "Probabilidade de Calote"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "6670de1eb7a62393102c",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "predicoes_para_powerbi"
+              }
+            },
+            "Property": "Categoria de Risco"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
+  }
+}

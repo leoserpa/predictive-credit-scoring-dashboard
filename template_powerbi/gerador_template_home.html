@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Template - Home Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-body: #0d0d0d;
+            --text-main: #e5e5e5;
+            --text-muted: #888888;
+            --accent: #A278E1;
+        }
+
+        body {
+            background-color: var(--bg-body);
+            color: var(--text-main);
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+            margin: 0;
+            min-height: 100vh;
+        }
+
+        .header-section {
+            text-align: center;
+            margin-bottom: 40px;
+            max-width: 800px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 500;
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+
+        .tagline {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .controls {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            background: #ffffff;
+            color: #000000;
+            border: none;
+            padding: 12px 24px;
+            font-size: 15px;
+            font-weight: 600;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn:hover {
+            background: var(--accent);
+            color: #ffffff;
+        }
+
+        .preview-wrapper {
+            position: relative;
+            padding: 10px;
+            background: #000000;
+            border-radius: 12px;
+            border: 1px solid #333;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+        }
+
+        svg {
+            display: block;
+            max-width: 1280px;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header-section">
+        <h1>Portal de Entrada - Fintech Risk</h1>
+        <p class="tagline">Capa estratégica com menu de navegação e contexto do projeto de I.A.</p>
+    </div>
+
+    <div class="controls">
+        <button class="btn" onclick="downloadSVG()">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            Exportar SVG da Home
+        </button>
+    </div>
+
+    <div class="preview-wrapper">
+        <svg id="pbi-home-template" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+            <defs>
+                <filter id="shadow" x="-20%" y="-20%" width="150%" height="150%">
+                    <feDropShadow dx="0" dy="4" stdDeviation="10" flood-color="#000000" flood-opacity="0.5" />
+                </filter>
+                <linearGradient id="grad-accent" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#A278E1" />
+                    <stop offset="100%" stop-color="#6E45E2" />
+                </linearGradient>
+            </defs>
+
+            <!-- Background Principal -->
+            <rect width="1280" height="720" fill="#1C1C1C" />
+            <path d="M0 0H1280V720H0V0Z" fill="url(#grad-accent)" fill-opacity="0.03" />
+
+            <!-- Header Centralizado Profissional -->
+            <g transform="translate(640, 155)" text-anchor="middle">
+                <!-- Novo Ícone: Escudo Geométrico Minimalista -->
+                <g transform="translate(0, -75)">
+                    <path d="M0 -35 L28 -22 V10 C28 28 0 40 0 40 C0 40 -28 28 -28 10 V-22 Z" fill="#141414"
+                        stroke="#A278E1" stroke-width="2.5" />
+                    <rect x="-12" y="-12" width="24" height="24" rx="2" fill="none" stroke="#A278E1" stroke-width="1.5"
+                        opacity="0.3" />
+                    <path d="M-8 5 L0 -3 L8 5" fill="none" stroke="#A278E1" stroke-width="2" stroke-linecap="round" />
+                </g>
+
+                <!-- Título com Refinamento de Peso e Espaçamento -->
+                <text y="25" font-family="Inter, sans-serif" font-size="44" font-weight="900" fill="#ffffff"
+                    letter-spacing="-1.5">INTELIGÊNCIA DE <tspan fill="#A278E1">RISCO</tspan> DE CRÉDITO</text>
+
+                <!-- Subtítulo com Tipografia Corporativa -->
+                <text y="60" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#555555"
+                    text-transform="uppercase" letter-spacing="8" opacity="0.8">Credit Risk Dashboard • 2026</text>
+
+                <!-- Linha Decorativa Minimalista -->
+                <rect x="-60" y="80" width="120" height="1" fill="#A278E1" opacity="0.3" />
+            </g>
+
+            <!-- Cards de Navegação -->
+            <!-- Card 1: Visão Geral de Risco -->
+            <g transform="translate(240, 320)">
+                <rect width="250" height="180" rx="12" fill="#141414" stroke="#2a2a2a" stroke-width="1"
+                    filter="url(#shadow)" />
+                <rect width="250" height="4" rx="2" fill="#A278E1" />
+                <text x="125" y="60" text-anchor="middle" font-family="Inter, sans-serif" font-size="18"
+                    font-weight="600" fill="#e5e5e5">Visão Geral de Risco</text>
+                <text x="125" y="90" text-anchor="middle" font-family="Inter, sans-serif" font-size="12"
+                    fill="#666666">Resumo executivo e</text>
+                <text x="125" y="105" text-anchor="middle" font-family="Inter, sans-serif" font-size="12"
+                    fill="#666666">distribuição da carteira.</text>
+
+                <!-- Bloco do Botão (Sem Texto) -->
+                <rect x="75" y="130" width="100" height="25" rx="4" fill="#1A1A1A" stroke="#2a2a2a" />
+            </g>
+
+            <!-- Card 2: Performance do Modelo -->
+            <g transform="translate(515, 320)">
+                <rect width="250" height="180" rx="12" fill="#141414" stroke="#2a2a2a" stroke-width="1"
+                    filter="url(#shadow)" />
+                <rect width="250" height="4" rx="2" fill="#A278E1" />
+                <text x="125" y="60" text-anchor="middle" font-family="Inter, sans-serif" font-size="18"
+                    font-weight="600" fill="#e5e5e5">Performance do Modelo</text>
+                <text x="125" y="90" text-anchor="middle" font-family="Inter, sans-serif" font-size="12"
+                    fill="#666666">Métricas técnicas e</text>
+                <text x="125" y="105" text-anchor="middle" font-family="Inter, sans-serif" font-size="12"
+                    fill="#666666">justificativa do algoritmo.</text>
+
+                <!-- Bloco do Botão (Sem Texto) -->
+                <rect x="75" y="130" width="100" height="25" rx="4" fill="#1A1A1A" stroke="#2a2a2a" />
+            </g>
+
+            <!-- Card 3: Previsão de Risco -->
+            <g transform="translate(790, 320)">
+                <rect width="250" height="180" rx="12" fill="#141414" stroke="#2a2a2a" stroke-width="1"
+                    filter="url(#shadow)" />
+                <rect width="250" height="4" rx="2" fill="#A278E1" />
+                <text x="125" y="60" text-anchor="middle" font-family="Inter, sans-serif" font-size="18"
+                    font-weight="600" fill="#e5e5e5">Previsão de Risco</text>
+                <text x="125" y="90" text-anchor="middle" font-family="Inter, sans-serif" font-size="12"
+                    fill="#666666">Painel de Avaliação de Risco</text>
+                <text x="125" y="105" text-anchor="middle" font-family="Inter, sans-serif" font-size="11"
+                    fill="#666666">Detalhamento individual de clientes.</text>
+
+                <!-- Bloco do Botão (Sem Texto) -->
+                <rect x="75" y="130" width="100" height="25" rx="4" fill="#1A1A1A" stroke="#2a2a2a" />
+            </g>
+
+            <!-- Rodapé -->
+            <g transform="translate(640, 600)" text-anchor="middle">
+                <line x1="-300" y1="0" x2="300" y2="0" stroke="#2a2a2a" stroke-width="1" />
+                <text y="30" font-family="Inter, sans-serif" font-size="11" fill="#666666">PROJETO DE DATA SCIENCE |
+                    DATASET HISTÓRICO: KAGGLE CREDIT RISK</text>
+                <text y="50" font-family="Inter, sans-serif" font-size="10" fill="#444444">Desenvolvido por Leonardo
+                    Serpa | Versão v1.2.0 | 2026</text>
+            </g>
+
+            <!-- Badge Status -->
+            <g transform="translate(1120, 40)">
+                <rect width="120" height="24" rx="12" fill="#141414" stroke="#2a2a2a" />
+                <circle cx="15" cy="12" r="4" fill="#00D4AA" />
+                <text x="25" y="15" font-family="Inter, sans-serif" font-size="9" font-weight="600"
+                    fill="#00D4AA">ESTÁVEL (v1.2.0)</text>
+            </g>
+        </svg>
+    </div>
+
+    <script>
+        function downloadSVG() {
+            const svgElement = document.getElementById('pbi-home-template');
+            const serializer = new XMLSerializer();
+            let svgString = serializer.serializeToString(svgElement);
+
+            if (!svgString.match(/^<svg[^>]+xmlns="http\:\/\/www\.w3\.org\/2000\/svg"/)) {
+                svgString = svgString.replace(/^<svg/, '<svg xmlns="http://www.w3.org/2000/svg"');
+            }
+
+            const blob = new Blob([svgString], { type: 'image/svg+xml;charset=utf-8' });
+            const url = URL.createObjectURL(blob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = 'Template_Home_CreditRisk.svg';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+    </script>
+</body>
+
+</html>

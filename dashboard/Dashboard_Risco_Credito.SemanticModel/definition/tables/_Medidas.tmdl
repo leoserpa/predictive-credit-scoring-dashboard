@@ -220,7 +220,7 @@ table _Medidas
 
 	measure 'Cor Tema Inadimplencia Anterior tabela' = ```
 			
-			SWITCH(SELECTEDVALUE('predicoes_para_powerbi'[Inadimplência Anterior]),
+			SWITCH(SELECTEDVALUE('predicoes_para_powerbi'[Histórico de Inadimplência]),
 			    "Sim", "#A278E1",  // Roxo do tema (Destaca quem já deu calote no passado)
 			    "Não", "#444444",  // Cinza escuro (Deixa "apagado" quem tem o nome limpo)
 			    "#666666"          // Cor padrão
@@ -228,6 +228,38 @@ table _Medidas
 			
 			```
 		lineageTag: 3a070f13-420c-4c99-8ff7-ad9d07c4fa0d
+
+	measure 'Cor Destaque LightGBM' = ```
+			
+			VAR ModeloSelecionado = SELECTEDVALUE('comparativo_modelos_para_powerbi'[Modelo de ML])
+			RETURN
+			    IF(
+			        ModeloSelecionado = "LightGBM", 
+			        "#A278E1",  -- Cor roxa do seu tema para destacar
+			        "#141414"   -- Cor de fundo padrão dos outros cartões
+			    )
+			
+			```
+		lineageTag: 61bad09c-a7db-4e6a-8e1f-7ef566bf1438
+
+	measure 'Cor Categoria Risco2' = ```
+			
+			VAR CategoriaAtual = MAX('predicoes_para_powerbi'[Categoria de Risco])
+			
+			RETURN
+			SWITCH(
+			    CategoriaAtual,
+			    "Muito Alto", "#A278E1",   // Roxo Destaque Principal
+			    "Alto", "#8367B8",         // Roxo Médio
+			    "Moderado", "#73648A",     // Roxo Acinzentado (Transição)
+			    "Baixo", "#5E5E5E",        // Cinza Mantido
+			    "Muito Baixo", "#404040",  // Cinza Escuro Mantido
+			    "#1C1C1C"                  // Cor padrão de segurança
+			)
+			
+			
+			```
+		lineageTag: ec5ed844-9522-4519-98ea-ba49220850e3
 
 	column 'Coluna 1'
 		dataType: string

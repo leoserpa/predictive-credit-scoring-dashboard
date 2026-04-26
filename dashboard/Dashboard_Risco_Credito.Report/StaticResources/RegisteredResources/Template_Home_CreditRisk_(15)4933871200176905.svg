@@ -1,0 +1,87 @@
+<svg id="pbi-home-template" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+            <defs>
+                <filter id="shadow" x="-20%" y="-20%" width="150%" height="150%">
+                    <feDropShadow dx="0" dy="4" stdDeviation="10" flood-color="#000000" flood-opacity="0.5"/>
+                </filter>
+                <linearGradient id="grad-accent" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#A278E1"/>
+                    <stop offset="100%" stop-color="#6E45E2"/>
+                </linearGradient>
+            </defs>
+
+            <!-- Background Principal -->
+            <rect width="1280" height="720" fill="#1C1C1C"/>
+            <path d="M0 0H1280V720H0V0Z" fill="url(#grad-accent)" fill-opacity="0.03"/>
+
+            <!-- Header Centralizado Profissional -->
+            <g transform="translate(640, 155)" text-anchor="middle">
+                <!-- Novo Ícone: Escudo Geométrico Minimalista -->
+                <g transform="translate(0, -75)">
+                    <path d="M0 -35 L28 -22 V10 C28 28 0 40 0 40 C0 40 -28 28 -28 10 V-22 Z" fill="#141414" stroke="#A278E1" stroke-width="2.5"/>
+                    <rect x="-12" y="-12" width="24" height="24" rx="2" fill="none" stroke="#A278E1" stroke-width="1.5" opacity="0.3"/>
+                    <path d="M-8 5 L0 -3 L8 5" fill="none" stroke="#A278E1" stroke-width="2" stroke-linecap="round"/>
+                </g>
+
+                <!-- Título com Refinamento de Peso e Espaçamento -->
+                <text y="25" font-family="Inter, sans-serif" font-size="44" font-weight="900" fill="#ffffff" letter-spacing="-1.5">INTELIGÊNCIA DE <tspan fill="#A278E1">RISCO</tspan> DE CRÉDITO</text>
+
+                <!-- Subtítulo com Tipografia Corporativa -->
+                <text y="60" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#555555" text-transform="uppercase" letter-spacing="8" opacity="0.8">Credit Risk Dashboard • 2026</text>
+
+                <!-- Linha Decorativa Minimalista -->
+                <rect x="-60" y="80" width="120" height="1" fill="#A278E1" opacity="0.3"/>
+            </g>
+
+            <!-- Cards de Navegação -->
+            <!-- Card 1: Visão Geral de Risco -->
+            <g transform="translate(240, 320)">
+                <rect width="250" height="180" rx="12" fill="#141414" stroke="#2a2a2a" stroke-width="1" filter="url(#shadow)"/>
+                <rect width="250" height="4" rx="2" fill="#A278E1"/>
+                <text x="125" y="60" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="600" fill="#e5e5e5">Visão Geral de Risco</text>
+                <text x="125" y="90" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#666666">Resumo executivo e</text>
+                <text x="125" y="105" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#666666">distribuição da carteira.</text>
+
+                <!-- Bloco do Botão (Sem Texto) -->
+                <rect x="75" y="130" width="100" height="25" rx="4" fill="#1A1A1A" stroke="#2a2a2a"/>
+            </g>
+
+            <!-- Card 2: Performance do Modelo -->
+            <g transform="translate(515, 320)">
+                <rect width="250" height="180" rx="12" fill="#141414" stroke="#2a2a2a" stroke-width="1" filter="url(#shadow)"/>
+                <rect width="250" height="4" rx="2" fill="#A278E1"/>
+                <text x="125" y="60" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="600" fill="#e5e5e5">Performance do Modelo</text>
+                <text x="125" y="90" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#666666">Métricas técnicas e</text>
+                <text x="125" y="105" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#666666">justificativa do algoritmo.</text>
+
+                <!-- Bloco do Botão (Sem Texto) -->
+                <rect x="75" y="130" width="100" height="25" rx="4" fill="#1A1A1A" stroke="#2a2a2a"/>
+            </g>
+
+            <!-- Card 3: Previsão de Risco -->
+            <g transform="translate(790, 320)">
+                <rect width="250" height="180" rx="12" fill="#141414" stroke="#2a2a2a" stroke-width="1" filter="url(#shadow)"/>
+                <rect width="250" height="4" rx="2" fill="#A278E1"/>
+                <text x="125" y="60" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="600" fill="#e5e5e5">Previsão de Risco</text>
+                <text x="125" y="90" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#666666">Painel de Avaliação de Risco</text>
+                <text x="125" y="105" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#666666">Detalhamento individual de clientes.</text>
+
+                <!-- Bloco do Botão (Sem Texto) -->
+                <rect x="75" y="130" width="100" height="25" rx="4" fill="#1A1A1A" stroke="#2a2a2a"/>
+            </g>
+
+            <!-- Rodapé -->
+            <g transform="translate(640, 600)" text-anchor="middle">
+                <line x1="-300" y1="0" x2="300" y2="0" stroke="#2a2a2a" stroke-width="1"/>
+                <text y="30" font-family="Inter, sans-serif" font-size="11" fill="#666666">PROJETO DE DATA SCIENCE |
+                    DATASET HISTÓRICO: KAGGLE CREDIT RISK</text>
+                <text y="50" font-family="Inter, sans-serif" font-size="10" fill="#444444">Desenvolvido por Leonardo
+                    Serpa | Versão v1.2.0 | 2026</text>
+            </g>
+
+            <!-- Badge Status -->
+            <g transform="translate(1120, 40)">
+                <rect width="120" height="24" rx="12" fill="#141414" stroke="#2a2a2a"/>
+                <circle cx="15" cy="12" r="4" fill="#00D4AA"/>
+                <text x="25" y="15" font-family="Inter, sans-serif" font-size="9" font-weight="600" fill="#00D4AA">ESTÁVEL (v1.2.0)</text>
+            </g>
+        </svg>
