@@ -1,19 +1,41 @@
-# 📊 Credit Risk Prediction - Machine Learning
+# 📊 Predictive Credit Scoring Dashboard
 
-[**Português**](#-credit-risk-prediction---machine-learning-versão-em-português) | [**English**](#-credit-risk-prediction---machine-learning-english-version)
+[**Português**](#-predictive-credit-scoring-dashboard-versão-em-português) | [**English**](#-predictive-credit-scoring-dashboard-english-version)
 
 ---
 
-# 📊 Credit Risk Prediction - Machine Learning (Versão em Português)
+# 📊 Predictive Credit Scoring Dashboard (Versão em Português)
 
-![Version](https://img.shields.io/badge/version-v1.2.0-A278E1?style=flat-square)
+![Versão](https://img.shields.io/badge/versão-v1.2.0-A278E1?style=flat-square)
 ![Status](https://img.shields.io/badge/status-Finalizado-00D4AA?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power--BI-Premium--UI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-Cálculos--Analíticos-0078D4?style=flat-square&logo=microsoft&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power--BI-Interface--Premium-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 
-Este projeto consiste no desenvolvimento de um motor preditivo de **Risco de Crédito** baseado no **Credit Risk Dataset (Kaggle)**, utilizando algoritmos de última geração para prever a probabilidade de inadimplência (*default*).
+Este projeto apresenta o **Predictive Credit Scoring Dashboard**, uma solução completa que integra um motor preditivo de **Risco de Crédito** baseado no **Credit Risk Dataset (Kaggle)** com visualizações analíticas de alta fidelidade no Power BI.
 
-O objetivo principal é classificar novos solicitantes de empréstimo em faixas de risco e integrar os resultados em um dashboard de Power BI para suporte à decisão de crédito.
+O objetivo principal é classificar novos solicitantes de empréstimo em faixas de risco de forma automatizada, fornecendo suporte estratégico para a tomada de decisão de crédito.
+
+## 📌 Sumário
+- [📂 Fonte de Dados](#-fonte-de-dados)
+- [🚀 Destaques do Projeto](#-destaques-do-projeto)
+- [📂 Estrutura do Projeto](#-estrutura-do-projeto)
+- [🛠️ Guia de Uso](#️-guia-de-uso)
+  - [📊 1. Visualização Direta](#-1-visualização-direta-recrutadores-e-gestores)
+  - [🐍 2. Reprodutibilidade Técnica](#-2-reprodutibilidade-técnica-desenvolvedores)
+- [📈 Resultados Obtidos](#-resultados-obtidos)
+- [🖼️ Visualização do Dashboard](#️-visualização-do-dashboard)
+  - [1. Menu de Navegação](#1-menu-de-navegação-início)
+  - [2. Visão Geral de Risco](#2-visão-geral-de-risco)
+  - [3. Performance do Modelo](#3-performance-do-modelo)
+  - [4. Previsão de Risco](#4-previsão-de-risco)
+- [🔬 Validação Técnica](#-validação-técnica)
+
+<sub>🔗 **Acesse o Dashboard Interativo:** [Clique aqui para visualizar](https://app.powerbi.com/view?r=eyJrIjoiZGU3MjRiYzktMzBkZS00NmE0LWI4MmYtNGJiZmQyOWFkZDViIiwidCI6IjI4NDVhN2ExLWQ3ZTMtNDBjNC1hMGYwLWY4NWI5OWY2Mjc2YyJ9)</sub>
+
+## 📂 Fonte de Dados
+Os dados utilizados neste projeto foram extraídos do Kaggle:
+- **Dataset:** [Credit Risk Dataset](https://www.kaggle.com/datasets/laotse/credit-risk-dataset?hl=pt-BR)
 
 ## 🚀 Destaques do Projeto
 - **Melhor Modelo:** LightGBM (Gradient Boosting Machine).
@@ -43,8 +65,8 @@ Análise técnica da precisão do motor preditivo com KPIs de ROC-AUC (Distinç�
 
 ---
 
-### 4. Previsão de Risco (Mesa de Operação)
-Interface operacional para análise detalhada e suporte à decisão, apresentando o Painel de Avaliação de Risco com o perfil financeiro completo e a probabilidade de calote individualizada por cliente. Inclui 4 KPIs estratégicos (Total de Clientes, Média de Risco, Volume Total e Taxa de Juros Média). Inclui também uma barra lateral com filtros e legenda de risco.
+### 4. Previsão de Risco
+Interface operacional para análise detalhada e suporte à decisão, apresentando o Painel de Avaliação de Risco com perfil financeiro completo e probabilidade de inadimplência individualizada por cliente. Inclui 4 KPIs estratégicos (Total de Clientes, Risco Médio, Volume Total e Taxa de Juros Média). Inclui também barra lateral de filtros e legenda de risco.
 ![Previsão](assets/previsao_risco.png)
 
 ## 🛠️ Tecnologias Utilizadas
@@ -65,11 +87,25 @@ Interface operacional para análise detalhada e suporte à decisão, apresentand
 ├── models/             # Modelos treinados (.pkl) e Scaler
 ├── notebooks/          # Scripts para treinamento em nuvem (Google Colab)
 ├── src/                # Código fonte de limpeza e engenharia de features
-├── dashboard/          # Arquivo .pbix e modelo semântico do Power BI
+├── dashboard/          # Projeto do Power BI (Dashboard_Risco_Credito.pbip)
 ├── template_powerbi/   # Gerador de template SVG e background do dashboard
 ├── requirements.txt    # Dependências do projeto
 └── README.md           # Documentação
 ```
+
+## 🛠️ Guia de Uso
+
+### 📊 1. Visualização Direta (Recrutadores e Gestores)
+Para explorar os resultados e a interface interativa de negócio:
+*   **Acesso Online:** Utilize o [Link Interativo](https://app.powerbi.com/view?r=eyJrIjoiZGU3MjRiYzktMzBkZS00NmE0LWI4MmYtNGJiZmQyOWFkZDViIiwidCI6IjI4NDVhN2ExLWQ3ZTMtNDBjNC1hMGYwLWY4NWI5OWY2Mjc2YyJ9) no topo deste documento.
+*   **Acesso Local:** Abra o arquivo `Dashboard_Risco_Credito.pbip` na pasta `/dashboard` utilizando o **Power BI Desktop**.
+
+### 🐍 2. Reprodutibilidade Técnica (Desenvolvedores)
+Para executar o pipeline de dados e treinar o modelo do zero:
+1.  **Ambiente:** Instale as dependências com `pip install -r requirements.txt`.
+2.  **ETL:** Execute `python src/01_eda_e_limpeza.py` para limpeza e EDA.
+3.  **Machine Learning:** Execute `python notebooks/02_modelagem_colab.py` para o treinamento.
+4.  **Integração:** Execute `python src/ajuste_powerbi.py` para preparar os dados para o BI.
 
 ## 📈 Resultados Obtidos
 O modelo final (LightGBM) demonstrou um equilíbrio superior entre precisão e sensibilidade:
@@ -97,16 +133,38 @@ Para garantir a confiabilidade do motor preditivo, foram realizadas validações
 
 ---
 
-# 📊 Credit Risk Prediction - Machine Learning (English Version)
+# 📊 Predictive Credit Scoring Dashboard (English Version)
 
 ![Version](https://img.shields.io/badge/version-v1.2.0-A278E1?style=flat-square)
 ![Status](https://img.shields.io/badge/status-Finished-00D4AA?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)
+![DAX](https://img.shields.io/badge/DAX-Analysis--Expressions-0078D4?style=flat-square&logo=microsoft&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power--BI-Premium--UI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 
-This project consists of the development of a **Credit Risk** predictive engine based on the **Credit Risk Dataset (Kaggle)**, using state-of-the-art algorithms to predict default probability.
+This project presents the **Predictive Credit Scoring Dashboard**, a comprehensive solution that integrates a **Credit Risk** predictive engine based on the **Credit Risk Dataset (Kaggle)** with high-fidelity analytical visualizations in Power BI.
 
-The main objective is to classify new loan applicants into risk tiers and integrate the results into a Power BI dashboard to support credit decision-making.
+The main objective is to classify new loan applicants into risk tiers in an automated way, providing strategic support for credit decision-making.
+
+## 📌 Summary
+- [📂 Data Source](#-data-source)
+- [🚀 Project Highlights](#-project-highlights)
+- [📂 Project Structure](#-project-structure)
+- [🛠️ User Guide](#️-user-guide)
+  - [📊 1. Direct Visualization](#-1-direct-visualization-recruiters-and-managers)
+  - [🐍 2. Technical Reproducibility](#-2-technical-reproducibility-developers)
+- [📈 Results Obtained](#-results-obtained)
+- [🖼️ Dashboard Visualization](#️-dashboard-visualization)
+  - [1. Navigation Menu](#1-navigation-menu-home)
+  - [2. Risk Overview](#2-risk-overview)
+  - [3. Model Performance](#3-model-performance)
+  - [4. Risk Prediction](#4-risk-prediction)
+- [🔬 Technical Validation](#-technical-validation)
+
+<sub>🔗 **Access the Interactive Dashboard:** [Click here to view](https://app.powerbi.com/view?r=eyJrIjoiZGU3MjRiYzktMzBkZS00NmE0LWI4MmYtNGJiZmQyOWFkZDViIiwidCI6IjI4NDVhN2ExLWQ3ZTMtNDBjNC1hMGYwLWY4NWI5OWY2Mjc2YyJ9)</sub>
+
+## 📂 Data Source
+The data used in this project was sourced from Kaggle:
+- **Dataset:** [Credit Risk Dataset](https://www.kaggle.com/datasets/laotse/credit-risk-dataset?hl=pt-BR)
 
 ## 🚀 Project Highlights
 - **Best Model:** LightGBM (Gradient Boosting Machine).
@@ -136,7 +194,7 @@ Technical analysis of the predictive engine's accuracy with ROC-AUC (Distinction
 
 ---
 
-### 4. Risk Prediction (Operational Desk)
+### 4. Risk Prediction
 Operational interface for detailed analysis and decision support, featuring the Risk Assessment Panel with a complete financial profile and individualized default probability per customer. Includes 4 strategic KPIs (Total Customers, Average Risk, Total Volume, and Average Interest Rate). Also includes a sidebar with filters and risk legend.
 ![Prediction](assets/previsao_risco.png)
 
@@ -158,11 +216,25 @@ Operational interface for detailed analysis and decision support, featuring the 
 ├── models/             # Trained models (.pkl) and Scaler
 ├── notebooks/          # Scripts for cloud training (Google Colab)
 ├── src/                # Cleaning and feature engineering source code
-├── dashboard/          # .pbix file and Power BI semantic model
+├── dashboard/          # Power BI Project (Dashboard_Risco_Credito.pbip)
 ├── template_powerbi/   # SVG template generator and dashboard background
 ├── requirements.txt    # Project dependencies
 └── README.md           # Documentation
 ```
+
+## 🛠️ User Guide
+
+### 📊 1. Direct Visualization (Recruiters and Managers)
+To explore the results and the interactive business interface:
+*   **Online Access:** Use the [Interactive Link](https://app.powerbi.com/view?r=eyJrIjoiZGU3MjRiYzktMzBkZS00NmE0LWI4MmYtNGJiZmQyOWFkZDViIiwidCI6IjI4NDVhN2ExLWQ3ZTMtNDBjNC1hMGYwLWY4NWI5OWY2Mjc2YyJ9) at the top of this document.
+*   **Local Access:** Open the `Dashboard_Risco_Credito.pbip` file in the `/dashboard` folder using **Power BI Desktop**.
+
+### 🐍 2. Technical Reproducibility (Developers)
+To run the data pipeline and train the model from scratch:
+1.  **Environment:** Install dependencies with `pip install -r requirements.txt`.
+2.  **ETL:** Run `python src/01_eda_e_limpeza.py` for cleaning and EDA.
+3.  **Machine Learning:** Run `python notebooks/02_modelagem_colab.py` for training.
+4.  **Integration:** Run `python src/ajuste_powerbi.py` to prepare the data for BI.
 
 ## 📈 Results Obtained
 The final model (LightGBM) demonstrated a superior balance between precision and sensitivity:
